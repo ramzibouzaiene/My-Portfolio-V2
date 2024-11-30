@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'MyFontTitle';
+  src: local('MyFontTitle'),
+    url(../../../src/assets/fonts/LatinaEssential-Medium.otf) format('woff');
+  font-family: 'MyFontPara';
+  src: local('MyFontPara'),
+    url(../../../src/assets/fonts/Ysobel\ W01\ SemiBold.ttf) format('woff');
+  font-family: 'IMFont';
+  src: local('IMFont'),
+    url(../../../src/assets/fonts/upcfl_1.ttf) format('woff');
+}
+
+.meContainer {
+  background-color: #34353a;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.styleImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  left: 20%;
+}
+
+.mainPara {
+  font-family: 'MyFontTitle';
+  color: #e4e5e7;
+  font-size: 1.3rem;
+}
+
+.title {
+  font-family: 'MyFontPara';
+  font-size: 3rem;
+  color: #ffc86b;
+  font-weight: bold;
+}
+
+.paraContainer {
+  display: block;
+  width: 100%;
+  margin-left: 25%;
+}
+
+.title span {
+  color: #e4e5e7;
+  font-size: 2.5rem;
+  font-family: 'IMFont';
+}
+
+.verticalLine {
+  width: 2px;
+  height: 100px;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.btnStyle {
+  margin-top: 2%;
+  background-color: transparent;
+  padding: 3% 8%;
+  color: #ffc86b;
+  border: 2px solid #ffc86b;
+  border-radius: 10px;
+  outline: 2px solid #ffc86b;
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+}
+.btnStyle:hover {
+  background-color: #e4e5e7;
+  color: black;
+}

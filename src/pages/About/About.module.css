@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'MyFontAbout';
+  src: local('MyFontAbout'),
+    url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+}
+
+.aboutContainer {
+}
+
+.aboutPara {
+  font-size: 1.3rem;
+  text-align: justify;
+  font-family: 'MyFontAbout';
+  color: #f7f7f7;
+  margin-top: 0%;
+}
+.paraAbout {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+hr {
+  width: 30%;
+  height: 5px;
+  border: none;
+  background-color: #ffc86b;
+  margin: 10px 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.imageStyle {
+  margin-top: -3%;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #333;
+  margin: 0 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 2px;
+}

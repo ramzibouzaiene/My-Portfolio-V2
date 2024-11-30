@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'TextFont';
+  src: local('TextFont'),
+    url(../../assets/fonts/fonnts.com-Mencken-Std-Text-Extra-Bold.otf)
+      format('woff');
+  font-family: 'ContactFont';
+  src: local('ContactFont'),
+    url(../../assets/fonts/GoldenSans-LightDemo.otf) format('woff');
+  font-family: 'EndTitleFont';
+  src: local('EndTitleFont'),
+    url(../../assets/fonts/TabacG3Medium.woff) format('woff');
+}
+
+.contactText {
+  font-family: 'ContactFont';
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: #3d3e42;
+}
+
+.container p {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #ffc86b;
+  padding: 0 10px;
+  min-width: 80px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.container p:nth-child(1),
+.container p:nth-child(2) {
+  background-color: #31333b;
+}
+
+.container p:nth-child(3) {
+  background-color: #31333b;
+  margin-left: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #333;
+  margin: 0 20px;
+}
+
+.title {
+  font-family: 'TextFont';
+  color: #f9f9f9;
+  font-size: 3rem;
+}
+
+.endTitle {
+  font-family: 'EndTitleFont';
+  color: #ffc86b;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 3rem;
+}
