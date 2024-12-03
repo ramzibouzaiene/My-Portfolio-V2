@@ -67,7 +67,7 @@ hr {
 
 @media (max-width: 500px) {
   .aboutPara {
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'MyFontAbout';
     color: #f7f7f7;
   }
