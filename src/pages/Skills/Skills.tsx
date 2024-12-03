@@ -1,4 +1,4 @@
-import styles from './skills.module.css'
+import styles from './Skills.module.css'
 import html from '../../assets/programming-logo/html.png'
 import css from '../../assets/programming-logo/css.png'
 import javascript from '../../assets/programming-logo/javascript.png'
