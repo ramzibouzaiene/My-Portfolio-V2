@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css'
 import { Link } from 'react-scroll'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
