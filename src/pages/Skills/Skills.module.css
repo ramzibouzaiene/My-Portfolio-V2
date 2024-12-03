@@ -52,6 +52,15 @@
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+}
+
 @media (max-width: 500px) {
   .mainContainer {
     display: grid;
