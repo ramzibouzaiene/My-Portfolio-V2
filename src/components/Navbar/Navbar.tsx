@@ -1,23 +1,69 @@
 import styles from './Navbar.module.css'
+import { Link } from 'react-scroll'
+import React, { useState } from 'react'
+
 export const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
-        <ul className={styles.navLinks}>
+        <div
+          className={`${styles.menuIcon} ${isMenuOpen ? styles.closeIcon : ''}`}
+          onClick={toggleMenu}
+        >
+          {isMenuOpen ? '✖' : '☰'}
+        </div>
+        <ul
+          className={`${styles.navLinks} ${isMenuOpen ? styles.showMenu : ''}`}
+        >
           <li>
-            <a href="about" className={styles.navLink}>
+            <Link
+              to="about"
+              className={styles.navLink}
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
               About Me
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="projects" className={styles.navLink}>
-              Portfolio
-            </a>
+            <Link
+              to="services"
+              className={styles.navLink}
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Services
+            </Link>
           </li>
           <li>
-            <a href="contact" className={styles.navLink}>
+            <Link
+              to="projects"
+              className={styles.navLink}
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Protfolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="contact"
+              className={styles.navLink}
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
               Contact Me
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

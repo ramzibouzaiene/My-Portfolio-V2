@@ -8,8 +8,8 @@ import styles from './Experience.module.css'
 
 export const Experience = () => {
   return (
-    <>
-      <h1>Experience</h1>
+    <div className={styles.mainContainer}>
+      <h1 data-aos="slide-down">Experience</h1>
       <div className={styles.timeline}>
         <VerticalTimeline
           lineColor="#fff"
@@ -64,6 +64,12 @@ export const Experience = () => {
                 Actively learn and seek opportunities for growth in backend
                 development.
               </li>
+              <div className={styles.spanStyle}>
+                <span>#Finance</span>
+                <span>#DigitalBanking</span>
+                <span>#FinTech</span>
+                <span>#Telecommunication</span>
+              </div>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -106,6 +112,11 @@ export const Experience = () => {
               </li>
               <li>Migrate projects from REST APIs to GraphQL.</li>
               <li>Fix production issues.</li>
+              <div className={styles.spanStyle}>
+                <span>#VideoStreaming</span>
+                <span>#Multimedia</span>
+                <span>#WebTV</span>
+              </div>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -130,7 +141,9 @@ export const Experience = () => {
                 complete B2S2C (Business to Shop to Customer) solutions with
                 Angular.
               </li>
-              <li>Fixing production issues.</li>
+              <li>Designed and implemented responsive user interfaces.</li>
+              <li>Worked with backend team to integrate APIs.</li>
+              <li>Fix production issues to enhance system reliability.</li>
               <li>
                 Working on two Angular projects: B2S (Business to Shop), and S2C
                 (Shop to Customer).
@@ -139,10 +152,13 @@ export const Experience = () => {
                 Development of the new project of B2B (Business to Business)
                 with React/TypeScript and Ant Design.
               </li>
+              <div className={styles.spanStyle}>
+                <span>#E-commerce</span>
+              </div>
             </ul>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   )
 }

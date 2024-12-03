@@ -3,22 +3,14 @@
   src: local('MyFontAbout'),
     url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
 }
-
-.aboutContainer {
-}
-
 .aboutPara {
   font-size: 1.3rem;
-  text-align: justify;
   font-family: 'MyFontAbout';
   color: #f7f7f7;
-  margin-top: 0%;
+  margin: 0;
+  line-height: 1.5;
 }
-.paraAbout {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
+
 hr {
   width: 30%;
   height: 5px;
@@ -34,16 +26,29 @@ hr {
   font-size: 1.3rem;
 }
 
-.imageStyle {
-  margin-top: -3%;
+.aboutContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
 }
 
-.titleContainer {
+.imageContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-style: italic;
-  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  margin-top: -15%;
+}
+
+.imageStyle {
+  width: 80%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .line {
@@ -58,4 +63,22 @@ hr {
   font-weight: bold;
   color: #333;
   letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+  .aboutPara {
+    font-size: 15px;
+    font-family: 'MyFontAbout';
+    color: #f7f7f7;
+  }
+  .aboutContainer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageStyle {
+    margin-top: 35%;
+    width: 100%;
+  }
 }

@@ -13,15 +13,12 @@
 .meContainer {
   background-color: #34353a;
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  height: 100vh;
   position: relative;
   overflow: hidden;
   margin: 0;
-  padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -31,13 +28,22 @@
   height: auto;
   object-fit: cover;
   position: relative;
-  left: 20%;
+  left: 12%;
 }
 
 .mainPara {
   font-family: 'MyFontTitle';
   color: #e4e5e7;
   font-size: 1.3rem;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: #ffc86b;
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+  font-family: 'MyFontPara';
 }
 
 .title {
@@ -48,9 +54,11 @@
 }
 
 .paraContainer {
-  display: block;
-  width: 100%;
-  margin-left: 25%;
+  padding-left: 20%;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
 }
 
 .title span {
@@ -78,9 +86,9 @@
 }
 
 .btnStyle {
-  margin-top: 2%;
+  margin-top: 4%;
   background-color: transparent;
-  padding: 3% 8%;
+  padding: 2% 6%;
   color: #ffc86b;
   border: 2px solid #ffc86b;
   border-radius: 10px;
@@ -88,8 +96,57 @@
   cursor: pointer;
   font-size: 17px;
   text-align: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
+
 .btnStyle:hover {
-  background-color: #e4e5e7;
-  color: black;
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  .paraContainer {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    padding: 0%;
+  }
+  .styleImage {
+    display: none;
+  }
+  .title {
+    font-size: 1.3rem;
+  }
+  .mainPara {
+    font-size: 17px;
+  }
+  .title span {
+    font-size: 1.3rem;
+  }
+
+  .meContainer {
+    height: 85vh;
+    text-align: center;
+    background-image: url('/src/assets/images/ME3.png');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+  }
+}
+
+@media (max-width: 1050px) {
+  .styleImage {
+    display: none;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .title span {
+    font-size: 1.5rem;
+  }
 }

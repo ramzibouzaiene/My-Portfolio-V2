@@ -1,7 +1,6 @@
 import styles from './Home.module.css'
-//import imdCode from './../../assets/images/ME1.png'
 import imdCode from './../../assets/images/ME3.png'
-import { Button } from '@mui/material'
+import resume from '../../assets/files/CV_RAMZI_BOUZAIENE.pdf'
 
 export const Home = () => {
   return (
@@ -15,11 +14,13 @@ export const Home = () => {
             Full Stack Engineer Passionate About <br />
             Crafting Innovative Solutions Through Code.
           </p>
-          <button className={styles.btnStyle}>Resume</button>
+          <button className={styles.btnStyle}>
+            <a href={resume} target="_blank" className={styles.linkStyle}>
+              Resume
+            </a>
+          </button>
         </div>
-        <div>
-          <img src={imdCode} className={styles.styleImage} />
-        </div>
+        <img src={imdCode} className={styles.styleImage} />
       </div>
     </>
   )

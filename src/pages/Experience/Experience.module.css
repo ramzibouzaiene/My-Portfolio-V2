@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'MyFontAbout';
-  src: local('MyFontAbout'),
+  font-family: 'MyFontExp';
+  src: local('MyFontExp'),
     url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
   font-family: 'TitleExp';
   src: local('TitleExp'),
@@ -10,14 +10,6 @@
 .dateStyle {
   color: #fff;
   font-family: 'TitleExp';
-}
-
-.titleContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-style: italic;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .line {
@@ -36,10 +28,47 @@
 
 li {
   color: #a1a1a2;
-  font-family: 'MyFontAbout';
+  font-family: 'MyFontExp';
 }
 
 h3,
 h4 {
   font-family: 'TitleExp';
+}
+
+.spanStyle {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: 'MyFontExp';
+}
+
+.spanStyle span {
+  display: inline-block;
+  background-color: #a1a1a2;
+  color: #ffffffcb;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 500px) {
+  h3,
+  h4 {
+    font-size: 15px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .spanStyle span {
+    font-size: 13px;
+  }
 }
