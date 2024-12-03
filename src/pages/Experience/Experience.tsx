@@ -30,7 +30,7 @@ export const Experience = () => {
               Backend Engineer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Proxym-IT</h4>
-            <ul>
+            <ul style={{ fontSize: '17px' }}>
               <li>
                 Backend engineer contributing to banking and telecom projects
                 with Java, Spring Boot, JSF, PostgreSQL, Maven, Keycloak,
@@ -86,7 +86,7 @@ export const Experience = () => {
               Frontend Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Sastec TN</h4>
-            <ul>
+            <ul style={{ fontSize: '17px' }}>
               <li>
                 Create reusable React components and export to Bit cloud for
                 reuse.
@@ -135,7 +135,7 @@ export const Experience = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Siyou Technology
             </h4>
-            <ul>
+            <ul style={{ fontSize: '17px' }}>
               <li>
                 Development of new features and maintaining code of a large
                 complete B2S2C (Business to Shop to Customer) solutions with

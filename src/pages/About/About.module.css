@@ -8,7 +8,6 @@
   font-family: 'MyFontAbout';
   color: #f7f7f7;
   margin: 0;
-  line-height: 1.5;
 }
 
 hr {
@@ -80,5 +79,13 @@ hr {
   .imageStyle {
     margin-top: 15%;
     width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .imageStyle {
+    margin-top: 45%;
+    width: 100%;
+    margin-bottom: -20%;
   }
 }
