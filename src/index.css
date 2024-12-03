@@ -10,7 +10,6 @@ body {
   background-color: #31333b;
   scroll-behavior: smooth;
   padding: 2%;
-  overflow-x: hidden;
 }
 
 h1 {
@@ -37,9 +36,6 @@ h1 {
 }
 
 @media (max-width: 500px) {
-  body {
-    overflow-x: hidden;
-  }
   h1 {
     font-size: 25px !important;
   }

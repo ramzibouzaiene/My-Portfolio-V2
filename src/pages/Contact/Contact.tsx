@@ -9,18 +9,18 @@ export const Contact = () => {
   return (
     <>
       <div className={styles.titleContainer}>
-        <hr className={styles.line} data-aos="slide-right" />
+        <hr className={styles.line} data-aos="slide-up" />
         <h1 className={styles.title} data-aos="slide-down">
           Contact Me
         </h1>
-        <hr className={styles.line} data-aos="slide-left" />
+        <hr className={styles.line} data-aos="slide-up" />
       </div>
       <div className={styles.container}>
-        <p className={styles.contactText} data-aos="slide-right">
+        <p className={styles.contactText} data-aos="slide-up">
           <MdOutlineEmail style={{ color: '#fff' }} />
           ramzibouzaiene.dev@gmail.com
         </p>
-        <p className={styles.contactText} data-aos="slide-left">
+        <p className={styles.contactText} data-aos="slide-up">
           <FiPhone style={{ color: '#fff' }} />
           +216 58 275 298
         </p>

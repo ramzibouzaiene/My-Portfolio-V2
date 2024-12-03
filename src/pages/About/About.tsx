@@ -4,7 +4,7 @@ export const About = () => {
     <>
       <h1 data-aos="slide-down">About</h1>
       <div className={styles.aboutContainer}>
-        <p className={styles.aboutPara} data-aos="fade-right">
+        <p className={styles.aboutPara} data-aos="slide-up">
           As a{' '}
           <span style={{ color: '#ffc86b', fontFamily: 'MyFontAbout' }}>
             Full Stack Software Engineer{' '}
@@ -18,7 +18,7 @@ export const About = () => {
           orchestration, along with GitLab CI/ and Jenkins to automate and
           streamline continuous integration and delivery processes.
         </p>
-        <div className={styles.imageContainer} data-aos="fade-left">
+        <div className={styles.imageContainer} data-aos="slide-up">
           <img
             src="/images/Developer activity-bro.png"
             alt="Developer Icon"

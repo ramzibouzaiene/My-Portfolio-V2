@@ -13,7 +13,7 @@ export const Services = () => {
         Services
       </h1>
       <div className={styles.mainContainer}>
-        <div className={styles.serviceContainer} data-aos="fade-right">
+        <div className={styles.serviceContainer} data-aos="slide-up">
           <img src={front} width={100} height={100} />
           <h2 className={styles.title}>Frontend Development</h2>
           <p className={styles.para}>
@@ -25,7 +25,7 @@ export const Services = () => {
           </p>
         </div>
 
-        <div className={styles.serviceContainer} data-aos="fade-right">
+        <div className={styles.serviceContainer} data-aos="slide-up">
           <img src={back} width={100} height={100} />
           <h2 className={styles.title}>Backend Development</h2>
           <p className={styles.para}>
@@ -37,7 +37,7 @@ export const Services = () => {
           </p>
         </div>
 
-        <div className={styles.serviceContainer} data-aos="fade-right">
+        <div className={styles.serviceContainer} data-aos="slide-up">
           <img src={fullStack} width={100} height={100} />
           <h2 className={styles.title}>Full-Stack Application</h2>
           <p className={styles.para}>
@@ -49,7 +49,7 @@ export const Services = () => {
           </p>
         </div>
 
-        <div className={styles.serviceContainer} data-aos="fade-left">
+        <div className={styles.serviceContainer} data-aos="slide-up">
           <img src={devOps} width={100} height={100} />
           <h2 className={styles.title}>DevOps and Deployment</h2>
           <p className={styles.para}>
@@ -61,7 +61,7 @@ export const Services = () => {
           </p>
         </div>
 
-        <div className={styles.serviceContainer} data-aos="fade-left">
+        <div className={styles.serviceContainer} data-aos="slide-up">
           <img src={image} width={100} height={100} />
           <h2 className={styles.title}>Maintenance and Support</h2>
           <p className={styles.para}>
@@ -73,7 +73,7 @@ export const Services = () => {
           </p>
         </div>
 
-        <div className={styles.serviceContainer} data-aos="fade-left">
+        <div className={styles.serviceContainer} data-aos="slide-up">
           <img src={training} width={100} height={100} />
           <h2 className={styles.title}>Consulting and Training</h2>
           <p className={styles.para}>
