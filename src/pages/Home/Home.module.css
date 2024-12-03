@@ -4,7 +4,7 @@
     url(../../../src/assets/fonts/LatinaEssential-Medium.otf) format('woff');
   font-family: 'MyFontPara';
   src: local('MyFontPara'),
-    url(../../../src/assets/fonts/Ysobel\ W01\ SemiBold.ttf) format('woff');
+    url(../../../src/assets/fonts/Ysobel-W01-SemiBold.ttf) format('woff');
   font-family: 'IMFont';
   src: local('IMFont'),
     url(../../../src/assets/fonts/upcfl_1.ttf) format('woff');

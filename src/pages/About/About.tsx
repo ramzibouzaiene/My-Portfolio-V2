@@ -1,6 +1,4 @@
 import styles from './About.module.css'
-//<hr className={styles.lineStyle} />
-import devIcon from '../../assets/Developer activity-bro.png'
 export const About = () => {
   return (
     <>
@@ -22,7 +20,7 @@ export const About = () => {
         </p>
         <div className={styles.imageContainer} data-aos="fade-left">
           <img
-            src={devIcon}
+            src="/images/Developer activity-bro.png"
             alt="Developer Icon"
             className={styles.imageStyle}
           />

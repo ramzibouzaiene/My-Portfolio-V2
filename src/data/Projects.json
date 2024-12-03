@@ -27,7 +27,7 @@
     "challenges": "Designing a modular backend architecture, integrating external REST APIs, handling support requests, and ensuring regulatory compliance.",
     "outcome": "Delivered a scalable and secure application with seamless user and administrator experiences, successfully deployed in production environments.",
     "liveDemo": "https://my.coris-bank.com/",
-    "image": "/src/assets/coris.png",
+    "image": "/images/coris.png",
     "mobile": "https://play.google.com/store/apps/details?id=com.coris&hl=en"
   },
   {
@@ -54,7 +54,7 @@
     ],
     "challenges": "Implementing seamless integration between Keycloak and Vasco while meeting high-security standards and system requirements.",
     "outcome": "Delivered a secure solution for enhanced authentication and authorization, ensuring proper functionality through rigorous testing and documentation.",
-    "image": "/src/assets/bna.png"
+    "image": "/images/bna.png"
   },
   {
     "title": "BICICI Bank",
@@ -79,7 +79,7 @@
     ],
     "challenges": "Handling technical feedback in production environments and debugging complex issues.",
     "outcome": "Successfully delivered a reliable application for customer management with validated web services and robust monitoring capabilities.",
-    "image": "/src/assets/bicici.png"
+    "image": "/images/bicici.png"
   },
   {
     "title": "MyTT (Tunisie Telecom)",
@@ -104,7 +104,7 @@
     ],
     "challenges": "Designing a modular backend architecture for telecom services and integrating third-party SOAP and REST web services.",
     "outcome": "Successfully developed a robust mobile application backend, ensuring smooth integration with Tunisia Telecom's services.",
-    "image": "/src/assets/myTT.png"
+    "image": "/images/myTT.png"
   },
   {
     "title": "Custom Video Player Solution",
@@ -128,7 +128,7 @@
     ],
     "challenges": "Ensuring seamless integration with backend services and optimizing the player for different devices.",
     "outcome": "Successfully developed an interactive video player with advanced features, integrated with existing backend systems.",
-    "image": "/src/assets/sastec.png"
+    "image": "/images/sastec.png"
   },
   {
     "title": "WebTv Platform",
@@ -152,7 +152,7 @@
     ],
     "challenges": "Migrating from REST APIs to GraphQL for improved data handling and enhancing platform scalability.",
     "outcome": "Successfully implemented a responsive and scalable WebTv platform, with a smooth user experience and enhanced data handling capabilities.",
-    "image": "/src/assets/sastec.png"
+    "image": "/images/sastec.png"
   },
   {
     "title": "SIYOU TECHNOLOGY (B2B)",
@@ -169,7 +169,7 @@
     ],
     "challenges": "Optimizing application performance and ensuring responsiveness across devices.",
     "outcome": "Successfully delivered a fully responsive and high-performance B2B application for business interactions.",
-    "image": "/src/assets/siyou.png"
+    "image": "/images/siyou.png"
   },
   {
     "title": "SIYOU TECHNOLOGY (B2S2C)",
@@ -187,7 +187,7 @@
     "challenges": "Integrating various modules and enhancing system reliability.",
     "outcome": "Successfully developed a reliable and scalable B2S2C platform, optimized for both retail and online sales.",
     "liveDemo": "https://www.siyoutechnology.com",
-    "image": "/src/assets/siyou.png",
+    "image": "/images/siyou.png",
     "mobile": "https://play.google.com/store/apps/details?id=com.siyoumarkettn.siyou&hl=en"
   },
   {
@@ -213,6 +213,6 @@
     ],
     "outcome": "Successfully built and deployed a robust microservices architecture using Spring Boot, Spring Cloud, Kafka, and Kubernetes, demonstrating key patterns like service discovery, centralized configuration, and event-driven communication.",
     "sourceCode": "https://github.com/ramzibouzaiene/e-commerce-microservice-monorepo",
-    "image": "/src/assets/archii.png"
+    "image": "/images/archii.png"
   }
 ]
