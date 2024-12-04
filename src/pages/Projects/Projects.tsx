@@ -6,14 +6,14 @@ interface Project {
   title: string
   description: string
   technologies: string[]
-  role: string
-  responsibilities: string[]
+  role?: string
+  responsibilities?: string[]
   features?: string[]
   challenges?: string
-  outcome: string
+  outcome?: string
   liveDemo?: string
   sourceCode?: string
-  image: string
+  image?: string
   mobile?: string
 }
 
@@ -68,8 +68,7 @@ export const Project = () => {
         gradient={false}
         gradientColor="#31333b"
         pauseOnHover={true}
-        autoFill={true}
-        className={styles.mainPrjContainer}
+        autoFill={false}
       >
         <div className={styles.grid}>
           {projects.map((project, index) => (

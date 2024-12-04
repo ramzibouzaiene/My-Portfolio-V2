@@ -18,7 +18,12 @@ export const Contact = () => {
       <div className={styles.container}>
         <p className={styles.contactText} data-aos="slide-up">
           <MdOutlineEmail style={{ color: '#fff' }} />
-          ramzibouzaiene.dev@gmail.com
+          <a
+            href="mailto:ramzibouzaiene.dev@gmail.com"
+            style={{ textDecoration: 'none', color: '#ffc86b' }}
+          >
+            ramzibouzaiene.dev@gmail.com
+          </a>
         </p>
         <p className={styles.contactText} data-aos="slide-up">
           <FiPhone style={{ color: '#fff' }} />
@@ -48,6 +53,11 @@ export const Contact = () => {
         <hr className={styles.line} />
       </div>
       <p className={styles.endTitle}>"Thanks for Scrolling"</p>
+      <div>
+        <p className={styles.copyRight}>
+          © 2024 Ramzi Bouzaiene. All rights reserved.
+        </p>
+      </div>
     </>
   )
 }

@@ -9,6 +9,9 @@
   font-family: 'EndTitleFont';
   src: local('EndTitleFont'),
     url(../../assets/fonts/TabacG3Medium.woff) format('woff');
+  font-family: 'MyFontT';
+  src: local('MyFontT'),
+    url(../../../src/assets/fonts/WrightRoman-SemiBold.woff) format('woff');
 }
 
 .contactText {
@@ -95,7 +98,7 @@
     display: flex;
     flex-direction: row;
     gap: 2px;
-    font-size: 13px !important;
+    font-size: 11px !important;
   }
 
   .line {
@@ -191,6 +194,10 @@
   .icons {
     margin: 8%;
   }
+  .copyRight {
+    font-size: 12px !important;
+    margin-top: 25%;
+  }
 
   .container p:nth-child(3) {
     margin-left: 0;
@@ -253,4 +260,12 @@
     font-size: 40px;
     margin-top: 44%;
   }
+}
+
+.copyRight {
+  color: #9f9fa0;
+  font-family: 'MyFontT';
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: -7%;
 }

@@ -10,8 +10,7 @@
 .grid {
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  justify-items: center;
+  gap: 1%;
 }
 
 .card {
@@ -38,7 +37,7 @@
 }
 
 .title {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin: 0 0 0.5rem;
   color: #ffc86b;
   font-family: 'TitlePrj';
@@ -54,7 +53,7 @@
 .technologies,
 .outcome {
   margin: 0.5rem 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #bbb;
   font-family: 'MyFontPrj';
 }
@@ -100,4 +99,25 @@
     color: #ffc86b;
     font-family: 'TitlePrj';
   }
+}
+
+.spanProjectStyle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-family: 'MyFontExp';
+  margin-bottom: 5%;
+}
+
+.spanProjectStyle span {
+  display: inline-block;
+  background-color: #a1a1a2;
+  color: #31333b;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
 }
