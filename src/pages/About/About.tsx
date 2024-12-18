@@ -9,7 +9,7 @@ export const About = () => {
           <span style={{ color: '#ffc86b', fontFamily: 'MyFontAbout' }}>
             Full Stack Software Engineer{' '}
           </span>{' '}
-          with +2 years of professional experience, I have a proven track record
+          with +3 years of professional experience, I have a proven track record
           of building robust web applications from the ground up. My expertise
           spans from front-end technologies like React and Angular to back-end
           frameworks such as Java/Spring Boot, Node.js/Express.js and
