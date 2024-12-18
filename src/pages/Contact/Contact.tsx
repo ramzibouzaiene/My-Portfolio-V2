@@ -4,6 +4,7 @@ import { FiPhone } from 'react-icons/fi'
 import { MdOutlineLocationOn } from 'react-icons/md'
 import { FaGithub } from 'react-icons/fa6'
 import { FaLinkedin } from 'react-icons/fa'
+import { IoLogoMedium } from 'react-icons/io5'
 
 export const Contact = () => {
   return (
@@ -36,19 +37,28 @@ export const Contact = () => {
       </div>
       <div className={styles.secondTitleContainer}>
         <hr className={styles.line} />
-        <a href="https://github.com/ramzibouzaiene" target="_blank">
-          <FaGithub
-            style={{ color: '#fff', fontSize: '3rem', cursor: 'pointer' }}
-            className={styles.icons}
-          />
-        </a>
+        <div className={styles.iconsContainer}>
+          <a href="https://github.com/ramzibouzaiene" target="_blank">
+            <FaGithub
+              style={{ color: '#fff', fontSize: '3rem', cursor: 'pointer' }}
+              className={styles.icons}
+            />
+          </a>
 
-        <a href="https://www.linkedin.com/in/ramzibouzaiene/" target="_blank">
-          <FaLinkedin
-            style={{ color: '#fff', fontSize: '3rem', cursor: 'pointer' }}
-            className={styles.icons}
-          />
-        </a>
+          <a href="https://www.linkedin.com/in/ramzibouzaiene/" target="_blank">
+            <FaLinkedin
+              style={{ color: '#fff', fontSize: '3rem', cursor: 'pointer' }}
+              className={styles.icons}
+            />
+          </a>
+
+          <a href="https://medium.com/@ramzibouzaiene.dev" target="_blank">
+            <IoLogoMedium
+              style={{ color: '#fff', fontSize: '3rem', cursor: 'pointer' }}
+              className={styles.icons}
+            />
+          </a>
+        </div>
 
         <hr className={styles.line} />
       </div>

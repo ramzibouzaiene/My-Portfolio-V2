@@ -24,7 +24,6 @@ function App() {
     return () => window.removeEventListener('scroll', toggleVisibility)
   }, [])
 
-  // Scroll to top function
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
