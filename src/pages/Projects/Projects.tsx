@@ -1,6 +1,5 @@
 import styles from './Projects.module.css'
 import projects from '../../data/Projects.json'
-import Marquee from 'react-fast-marquee'
 
 interface Project {
   title: string
@@ -23,7 +22,7 @@ interface ProjectsProps {
 
 const ProjectCard: React.FC<ProjectsProps> = ({ project }) => {
   return (
-    <div className={styles.card}>
+    <div className={styles.card} data-aos="slide-up">
       <img src={project.image} alt={project.title} className={styles.image} />
       <div className={styles.content}>
         <h3 className={styles.title}>{project.title}</h3>
@@ -64,18 +63,11 @@ export const Project = () => {
       <h1 className={styles.titleP} data-aos="slide-down">
         Portfolio
       </h1>
-      <Marquee
-        gradient={false}
-        gradientColor="#31333b"
-        pauseOnHover={true}
-        autoFill={false}
-      >
-        <div className={styles.grid}>
-          {projects.map((project, index) => (
-            <ProjectCard key={index} project={project} />
-          ))}
-        </div>
-      </Marquee>
+      <div className={styles.grid}>
+        {projects.map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
+      </div>
     </section>
   )
 }
