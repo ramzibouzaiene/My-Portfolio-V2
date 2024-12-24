@@ -1,5 +1,34 @@
 [
   {
+    "title": "iPhone 15 Pro Website Replica",
+    "description": "A creative frontend project replicating Apple’s iPhone 15 Pro website, showcasing 3D models and interactive animations built with Three Js, GSAP, React.js and TailwindCSS.",
+    "role": "Frontend Developer",
+    "technologies": [
+      "React.js",
+      "React Three Fiber",
+      "React Three Drei",
+      "TailwindCSS",
+      "Three.js",
+      "GSAP (Greensock)",
+      "Vite"
+    ],
+    "features": [
+      "High-performance animations using GSAP for an engaging user experience",
+      "Interactive 3D models of iPhone 15 Pro with multiple color and size options",
+      "GSAP-powered video carousel for interactive browsing",
+      "Fully responsive layout optimized for all screen sizes"
+    ],
+    "highlights": [
+      "Leveraged React Three Fiber and Drei for 3D rendering and utility integration",
+      "Created visually captivating animations that enhance user interaction",
+      "Delivered a highly performant and maintainable codebase using Vite"
+    ],
+    "outcome": "Successfully demonstrated proficiency in advanced frontend technologies, creating a visually stunning and responsive website replica.",
+    "liveDemo": "https://apple-15-web-site.vercel.app/",
+    "sourceCode": "https://github.com/ramzibouzaiene/Apple-WebSite",
+    "image": "/images/apple.png"
+  },
+  {
     "title": "CORIS Bank Retail",
     "description": "A highly scalable and secure banking application designed to handle millions of users, providing core banking features and a robust back-office system for efficient management of operations, compliance, and security.",
     "technologies": [
