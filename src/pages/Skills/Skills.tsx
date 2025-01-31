@@ -9,8 +9,10 @@ import springboot from '../../assets/programming-logo/spring-boot.png'
 import kubernetes from '../../assets/programming-logo/kubernetes.png'
 import docker from '../../assets/programming-logo/docker.png'
 import postgres from '../../assets/programming-logo/icons8-postgres-96.png'
-import laravel from '../../assets/programming-logo/pngwing.com.png'
-import golang from '../../assets/programming-logo/Go-Logo_Blue.png'
+import nodejs from '../../assets/programming-logo/icons8-nodejs-96 (1).png'
+import expressjs from '../../assets/programming-logo/icons8-express-js-96.png'
+import typescript from '../../assets/programming-logo/icons8-typescript-96.png'
+import mongodb from '../../assets/programming-logo/icons8-mongodb-96.png'
 
 export const Skills = () => {
   return (
@@ -32,6 +34,10 @@ export const Skills = () => {
           <h5>JAVASCRIPT</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
+          <img src={typescript} width={100} height={100} />
+          <h5>TYPESCRIPT</h5>
+        </div>
+        <div className={styles.techContainer} data-aos="slide-up">
           <img src={reactjs} width={100} height={100} />
           <h5>REACT JS</h5>
         </div>
@@ -48,12 +54,12 @@ export const Skills = () => {
           <h5>SPRING BOOT</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={laravel} width={100} height={100} />
-          <h5>LARAVEL</h5>
+          <img src={nodejs} width={100} height={100} />
+          <h5>NODE JS</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
-          <img src={golang} width={100} height={100} />
-          <h5>GO LANG</h5>
+          <img src={expressjs} width={100} height={100} />
+          <h5>EXPRESS JS</h5>
         </div>
         <div className={styles.techContainer} data-aos="slide-up">
           <img src={kubernetes} width={100} height={100} />
@@ -66,6 +72,10 @@ export const Skills = () => {
         <div className={styles.techContainer} data-aos="slide-up">
           <img src={postgres} width={100} height={100} />
           <h5>POSTGRES</h5>
+        </div>
+        <div className={styles.techContainer} data-aos="slide-up">
+          <img src={mongodb} width={100} height={100} />
+          <h5>MONGO DB</h5>
         </div>
       </div>
     </>
