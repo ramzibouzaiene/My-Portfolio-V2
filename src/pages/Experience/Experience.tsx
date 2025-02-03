@@ -5,11 +5,13 @@ import {
 } from 'react-vertical-timeline-component'
 import { MdHomeWork } from 'react-icons/md'
 import styles from './Experience.module.css'
+import { useTranslation } from 'react-i18next'
 
 export const Experience = () => {
+  const { t } = useTranslation()
   return (
     <div className={styles.mainContainer}>
-      <h1 data-aos="slide-down">Experience</h1>
+      <h1 data-aos="slide-down">{t('experience.title')}</h1>
       <div className={styles.timeline}>
         <VerticalTimeline
           lineColor="#fff"
@@ -27,43 +29,19 @@ export const Experience = () => {
             icon={<MdHomeWork />}
           >
             <h3 className="vertical-timeline-element-title">
-              Backend Engineer
+              {t('experience.backendEngineer')}
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Proxym-IT</h4>
             <ul style={{ fontSize: '17px' }}>
-              <li>
-                Backend engineer contributing to banking and telecom projects
-                with Java, Spring Boot, JSF, PostgreSQL, Maven, Keycloak,
-                Flowable, and JUnit.
-              </li>
-              <li>
-                Design and implement scalable backend solutions focusing on
-                retail and corporate banking functionalities.
-              </li>
-              <li>
-                Maintain a backoffice system using JSP and PrimeFaces for
-                efficient administration.
-              </li>
-              <li>
-                Developed scalable banking apps serving millions of users.
-              </li>
-              <li>
-                Designed and implemented business processes using BPMN
-                (Flowable).
-              </li>
-              <li>
-                Built and deployed Java projects with Keycloak SPI for advanced
-                authentication, integrated with Vasco (SOAP).
-              </li>
-              <li>Mentor interns, fostering growth and offering guidance.</li>
-              <li>
-                Collaborate with team members to deliver essential backend
-                functionalities.
-              </li>
-              <li>
-                Actively learn and seek opportunities for growth in backend
-                development.
-              </li>
+              <li>{t('experience.backendEngineerTasks.1')}</li>
+              <li>{t('experience.backendEngineerTasks.2')}</li>
+              <li>{t('experience.backendEngineerTasks.3')}</li>
+              <li>{t('experience.backendEngineerTasks.4')}</li>
+              <li>{t('experience.backendEngineerTasks.5')}</li>
+              <li>{t('experience.backendEngineerTasks.6')}</li>
+              <li>{t('experience.backendEngineerTasks.7')}</li>
+              <li>{t('experience.backendEngineerTasks.8')}</li>
+              <li>{t('experience.backendEngineerTasks.9')}</li>
               <div className={styles.spanStyle}>
                 <span>#Finance</span>
                 <span>#DigitalBanking</span>
@@ -72,6 +50,7 @@ export const Experience = () => {
               </div>
             </ul>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             position="right"
             className="vertical-timeline-element--work"
@@ -83,35 +62,19 @@ export const Experience = () => {
             icon={<MdHomeWork />}
           >
             <h3 className="vertical-timeline-element-title">
-              Frontend Developer
+              {t('experience.frontendDeveloper')}
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Sastec TN</h4>
             <ul style={{ fontSize: '17px' }}>
-              <li>
-                Create reusable React components and export to Bit cloud for
-                reuse.
-              </li>
-              <li>
-                Develop and optimize real-time streaming applications (live
-                meetings, video streaming).
-              </li>
-              <li>
-                Maintain and enhance projects by adding features and fixing
-                bugs.
-              </li>
-              <li>Write unit tests with React Testing Library and Jest.</li>
-              <li>
-                Deliver new features and ensure responsiveness in web design.
-              </li>
-              <li>
-                Continuously learn best practices and improve performance.
-              </li>
-              <li>
-                Maintain and enhance a video player project with Vue.js and
-                Vuex.
-              </li>
-              <li>Migrate projects from REST APIs to GraphQL.</li>
-              <li>Fix production issues.</li>
+              <li>{t('experience.frontendDeveloperTasks.1')}</li>
+              <li>{t('experience.frontendDeveloperTasks.2')}</li>
+              <li>{t('experience.frontendDeveloperTasks.3')}</li>
+              <li>{t('experience.frontendDeveloperTasks.4')}</li>
+              <li>{t('experience.frontendDeveloperTasks.5')}</li>
+              <li>{t('experience.frontendDeveloperTasks.6')}</li>
+              <li>{t('experience.frontendDeveloperTasks.7')}</li>
+              <li>{t('experience.frontendDeveloperTasks.8')}</li>
+              <li>{t('experience.frontendDeveloperTasks.9')}</li>
               <div className={styles.spanStyle}>
                 <span>#VideoStreaming</span>
                 <span>#Multimedia</span>
@@ -119,6 +82,7 @@ export const Experience = () => {
               </div>
             </ul>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             position="right"
             className="vertical-timeline-element--work"
@@ -130,28 +94,18 @@ export const Experience = () => {
             icon={<MdHomeWork />}
           >
             <h3 className="vertical-timeline-element-title">
-              Frontend Developer
+              {t('experience.frontendDeveloper')}
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Siyou Technology
             </h4>
             <ul style={{ fontSize: '17px' }}>
-              <li>
-                Development of new features and maintaining code of a large
-                complete B2S2C (Business to Shop to Customer) solutions with
-                Angular.
-              </li>
-              <li>Designed and implemented responsive user interfaces.</li>
-              <li>Worked with backend team to integrate APIs.</li>
-              <li>Fix production issues to enhance system reliability.</li>
-              <li>
-                Working on two Angular projects: B2S (Business to Shop), and S2C
-                (Shop to Customer).
-              </li>
-              <li>
-                Development of the new project of B2B (Business to Business)
-                with React/TypeScript and Ant Design.
-              </li>
+              <li>{t('experience.frontendDeveloperTasks.10')}</li>
+              <li>{t('experience.frontendDeveloperTasks.11')}</li>
+              <li>{t('experience.frontendDeveloperTasks.12')}</li>
+              <li>{t('experience.frontendDeveloperTasks.13')}</li>
+              <li>{t('experience.frontendDeveloperTasks.14')}</li>
+              <li>{t('experience.frontendDeveloperTasks.15')}</li>
               <div className={styles.spanStyle}>
                 <span>#E-commerce</span>
               </div>

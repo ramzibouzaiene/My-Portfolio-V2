@@ -13,12 +13,14 @@ import nodejs from '../../assets/programming-logo/icons8-nodejs-96 (1).png'
 import expressjs from '../../assets/programming-logo/icons8-express-js-96.png'
 import typescript from '../../assets/programming-logo/icons8-typescript-96.png'
 import mongodb from '../../assets/programming-logo/icons8-mongodb-96.png'
+import { useTranslation } from 'react-i18next'
 
 export const Skills = () => {
+  const { t } = useTranslation()
   return (
     <>
       <h1 className={styles.aboutTitle} data-aos="slide-down">
-        My Skills
+        {t('skills.skills')}
       </h1>
       <div className={styles.mainContainer}>
         <div className={styles.techContainer} data-aos="slide-up">

@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "about": "About Me",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact Me"
+  },
+
+  "about": {
+    "title": "About",
+    "as": "As a",
+    "highlight": "Full Stack Software Engineer",
+    "description": "with 3+ years of experience, I design, develop, and optimize web applications from architecture to deployment. I write clean, scalable code to ensure high performance and a seamless user experience. Passionate about problem-solving and continuous learning, I thrive on tackling complex challenges and building efficient, innovative solutions. I actively explore new technologies through side projects, refining my skills and staying ahead of industry trends. With keen attention to detail and a commitment to best practices, I deliver robust, scalable solutions aligned with business goals and industry standards."
+  },
+  "home": {
+    "iam": "I'AM",
+    "description": "Full Stack Engineer Passionate About",
+    "secondDescription": "Crafting Innovative Solutions Through Code.",
+    "resume": "Resume"
+  },
+  "services": {
+    "title": "Services",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Leveraging modern frameworks like React and Angular, I will craft a responsive, visually appealing frontend for your website or mobile app. Focus will be placed on performance optimization to ensure fast, smooth user experiences across all devices while aligning the design with your brand’s identity."
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Secure, scalable APIs will be developed to power your application's core functionality, ensuring efficient data flow. Robust databases will be designed for seamless storage and retrieval of data, while backend logic will be optimized to ensure performance, security, and reliability."
+    },
+    "fullstack": {
+      "title": "Full-Stack Application",
+      "description": "A seamless full-stack solution will be created, integrating a dynamic frontend with a powerful backend. Real-time features like live notifications or chat systems will be added, while third-party services such as payment gateways and cloud storage will be integrated to extend your app’s functionality."
+    },
+    "devops": {
+      "title": "DevOps and Deployment",
+      "description": "Automated CI/CD pipelines will be implemented to streamline your development and deployment processes, ensuring faster, reliable releases. Your application will be deployed on scalable cloud platforms like AWS or Azure, while Docker and Kubernetes will be used for containerization and orchestration to improve management."
+    },
+    "maintenance": {
+      "title": "Maintenance and Support",
+      "description": "Ongoing support will ensure your application runs smoothly, with bug fixes and new features added as needed. Performance monitoring will identify and resolve bottlenecks, keeping your app fast and reliable, while regular updates will maintain the latest security standards and technologies."
+    },
+    "consulting": {
+      "title": "Consulting and Training",
+      "description": "I will guide you in selecting the best tools and technologies to achieve your business objectives, mentor your development team to improve their skills and boost productivity, and deliver customized workshops to help you and your team master full-stack development."
+    }
+  },
+  "skills": {
+    "skills": "My Skills"
+  },
+  "contact": {
+    "contactMe": "Contact Me",
+    "thanks": "Thanks for Scrolling",
+    "copyRight": "All rights reserved."
+  },
+  "experience": {
+    "title": "Experience",
+    "backendEngineer": "Backend Engineer",
+    "frontendDeveloper": "Frontend Developer",
+    "backendEngineerTasks": {
+      "1": "Backend engineer contributing to banking and telecom projects with Java, Spring Boot, JSF, PostgreSQL, Maven, Keycloak, Flowable, and JUnit.",
+      "2": "Design and implement scalable backend solutions focusing on retail and corporate banking functionalities.",
+      "3": "Maintain a backoffice system using JSP and PrimeFaces for efficient administration.",
+      "4": "Developed scalable banking apps serving millions of users.",
+      "5": "Designed and implemented business processes using BPMN (Flowable).",
+      "6": "Built and deployed Java projects with Keycloak SPI for advanced authentication, integrated with Vasco (SOAP).",
+      "7": "Mentor interns, fostering growth and offering guidance.",
+      "8": "Collaborate with team members to deliver essential backend functionalities.",
+      "9": "Actively learn and seek opportunities for growth in backend development."
+    },
+    "frontendDeveloperTasks": {
+      "1": "Create reusable React components and export to Bit cloud for reuse.",
+      "2": "Develop and optimize real-time streaming applications (live meetings, video streaming).",
+      "3": "Maintain and enhance projects by adding features and fixing bugs.",
+      "4": "Write unit tests with React Testing Library and Jest.",
+      "5": "Deliver new features and ensure responsiveness in web design.",
+      "6": "Continuously learn best practices and improve performance.",
+      "7": "Maintain and enhance a video player project with Vue.js and Vuex.",
+      "8": "Migrate projects from REST APIs to GraphQL.",
+      "9": "Fix production issues.",
+      "10": "Development of new features and maintaining code of a large complete B2S2C (Business to Shop to Customer) solutions with Angular.",
+      "11": "Designed and implemented responsive user interfaces.",
+      "12": "Worked with backend team to integrate APIs.",
+      "13": "Fix production issues to enhance system reliability.",
+      "14": "Working on two Angular projects: B2S (Business to Shop), and S2C (Shop to Customer).",
+      "15": "Development of the new project of B2B (Business to Business) with React/TypeScript and Ant Design."
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "about": "À propos",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contactez-moi"
+  },
+
+  "about": {
+    "title": "À propos",
+    "as": "En tant qu' ",
+    "highlight": "Ingénieur Logiciel Full Stack",
+    "description": "avec plus de 3 ans d'expérience, je me spécialise dans la conception et le développement d'applications web, de l'architecture au déploiement. Je m'assure que chaque aspect du logiciel est conçu de manière optimale, en garantissant à la fois scalabilité, performances et expérience utilisateur fluide. Passionné par la résolution de problèmes complexes et l'apprentissage continu, j'aime relever des défis complexes et créer des solutions innovantes et efficaces. J'explore activement de nouvelles technologies à travers des projets personnels, affinant mes compétences et restant à jour avec les tendances du secteur. Avec une grande attention aux détails et un engagement envers les meilleures pratiques, je fournis des solutions robustes et évolutives, alignées sur les objectifs commerciaux et les normes de l'industrie."
+  },
+  "home": {
+    "iam": "Je suis",
+    "description": "Ingénieur Full Stack Passionné par",
+    "secondDescription": "la Création de Solutions Innovantes à Travers le Code.",
+    "resume": "CV"
+  },
+  "services": {
+    "title": "Services",
+    "frontend": {
+      "title": "Développement Frontend",
+      "description": "En utilisant des frameworks modernes comme React et Angular, je créerai un frontend réactif et visuellement attrayant pour votre site web ou application mobile. L'accent sera mis sur l'optimisation des performances pour garantir une expérience utilisateur rapide et fluide sur tous les appareils, tout en alignant le design avec l'identité de votre marque."
+    },
+    "backend": {
+      "title": "Développement Backend",
+      "description": "Des API sécurisées et évolutives seront développées pour alimenter la fonctionnalité principale de votre application, assurant un flux de données efficace. Des bases de données robustes seront conçues pour un stockage et une récupération des données sans faille, tandis que la logique backend sera optimisée pour garantir des performances, une sécurité et une fiabilité maximales."
+    },
+    "fullstack": {
+      "title": "Application Full-Stack",
+      "description": "Une solution full-stack fluide sera créée, intégrant un frontend dynamique avec un backend puissant. Des fonctionnalités en temps réel comme des notifications en direct ou des systèmes de chat seront ajoutées, tandis que des services tiers tels que les passerelles de paiement et le stockage en cloud seront intégrés pour étendre les fonctionnalités de votre application."
+    },
+    "devops": {
+      "title": "DevOps et Déploiement",
+      "description": "Des pipelines CI/CD automatisés seront mis en place pour rationaliser vos processus de développement et de déploiement, garantissant des versions plus rapides et fiables. Votre application sera déployée sur des plateformes cloud évolutives comme AWS ou Azure, tandis que Docker et Kubernetes seront utilisés pour la conteneurisation et l'orchestration afin d'améliorer la gestion."
+    },
+    "maintenance": {
+      "title": "Maintenance et Support",
+      "description": "Un support continu assurera le bon fonctionnement de votre application, avec des corrections de bugs et l'ajout de nouvelles fonctionnalités selon les besoins. La surveillance des performances identifiera et résoudra les goulots d'étranglement, garantissant ainsi que votre application reste rapide et fiable, tandis que des mises à jour régulières maintiendront les derniers standards de sécurité et technologies."
+    },
+    "consulting": {
+      "title": "Consultation et Formation",
+      "description": "Je vous guiderai dans le choix des meilleurs outils et technologies pour atteindre vos objectifs commerciaux, je guiderai votre équipe de développement pour améliorer ses compétences et augmenter la productivité, et je proposerai des ateliers personnalisés pour vous aider, vous et votre équipe, à maîtriser le développement full-stack."
+    }
+  },
+  "skills": {
+    "skills": "Compétences"
+  },
+  "contact": {
+    "contactMe": "Contactez-moi",
+    "thanks": "Merci de votre visite",
+    "copyRight": "Tous droits réservés."
+  },
+  "experience": {
+    "title": "Expérience",
+    "backendEngineer": "Ingénieur Backend",
+    "frontendDeveloper": "Développeur Frontend",
+    "backendEngineerTasks": {
+      "1": "Ingénieur backend contribuant à des projets bancaires et télécom avec Java, Spring Boot, JSF, PostgreSQL, Maven, Keycloak, Flowable, et JUnit.",
+      "2": "Concevoir et mettre en œuvre des solutions backend évolutives en se concentrant sur les fonctionnalités bancaires de détail et d'entreprise.",
+      "3": "Maintenir un système de backoffice en utilisant JSP et PrimeFaces pour une gestion efficace.",
+      "4": "Développé des applications bancaires évolutives servant des millions d'utilisateurs.",
+      "5": "Conçu et mis en œuvre des processus métier en utilisant BPMN (Flowable).",
+      "6": "Construit et déployé des projets Java avec Keycloak SPI pour une authentification avancée, intégré à Vasco (SOAP).",
+      "7": "Encadrer les stagiaires, favoriser leur croissance et leur offrir des conseils.",
+      "8": "Collaborer avec les membres de l'équipe pour fournir les fonctionnalités backend essentielles.",
+      "9": "Apprendre activement et rechercher des opportunités de croissance dans le développement backend."
+    },
+    "frontendDeveloperTasks": {
+      "1": "Créer des composants React réutilisables et les exporter vers Bit Cloud pour les réutiliser.",
+      "2": "Développer et optimiser des applications de streaming en temps réel (réunions en direct, streaming vidéo).",
+      "3": "Maintenir et améliorer les projets en ajoutant des fonctionnalités et en corrigeant les bugs.",
+      "4": "Écrire des tests unitaires avec React Testing Library et Jest.",
+      "5": "Fournir de nouvelles fonctionnalités et garantir la réactivité du design web.",
+      "6": "Apprendre en continu les meilleures pratiques et améliorer les performances.",
+      "7": "Maintenir et améliorer un projet de lecteur vidéo avec Vue.js et Vuex.",
+      "8": "Migrer des projets des API REST vers GraphQL.",
+      "9": "Corriger les problèmes de production.",
+      "10": "Développement de nouvelles fonctionnalités et maintien du code d'une solution complète B2S2C (Business to Shop to Customer) avec Angular.",
+      "11": "Conçu et mis en œuvre des interfaces utilisateur réactives.",
+      "12": "Travaillé avec l'équipe backend pour intégrer les API.",
+      "13": "Corriger les problèmes de production pour améliorer la fiabilité du système.",
+      "14": "Travailler sur deux projets Angular : B2S (Business to Shop), et S2C (Shop to Customer).",
+      "15": "Développement du nouveau projet B2B (Business to Business) avec React/TypeScript et Ant Design."
+    }
+  }
+}

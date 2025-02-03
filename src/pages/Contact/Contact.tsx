@@ -5,14 +5,16 @@ import { MdOutlineLocationOn } from 'react-icons/md'
 import { FaGithub } from 'react-icons/fa6'
 import { FaLinkedin } from 'react-icons/fa'
 import { IoLogoMedium } from 'react-icons/io5'
+import { useTranslation } from 'react-i18next'
 
 export const Contact = () => {
+  const { t } = useTranslation()
   return (
     <>
       <div className={styles.titleContainer}>
         <hr className={styles.line} data-aos="slide-up" />
         <h1 className={styles.title} data-aos="slide-down">
-          Contact Me
+          {t('contact.contactMe')}
         </h1>
         <hr className={styles.line} data-aos="slide-up" />
       </div>
@@ -62,10 +64,10 @@ export const Contact = () => {
 
         <hr className={styles.line} />
       </div>
-      <p className={styles.endTitle}>"Thanks for Scrolling"</p>
+      <p className={styles.endTitle}>"{t('contact.thanks')}"</p>
       <div>
         <p className={styles.copyRight}>
-          © 2024 Ramzi Bouzaiene. All rights reserved.
+          © 2024 Ramzi Bouzaiene. {t('contact.copyRight')}
         </p>
       </div>
     </>
