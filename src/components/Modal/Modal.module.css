@@ -11,18 +11,22 @@
   background-color: #3d3e42;
   border-radius: 12px;
   padding: 2rem;
+  width: 90%;
   max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
+  margin: 5vh auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  position: relative;
-  top: 25%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: none;
+  z-index: 1000;
 }
 
 .image {
   width: 100%;
-  height: 180px;
+  height: auto;
+  max-height: 180px;
   object-fit: contain;
   background-color: white;
   border-radius: 8px;
@@ -50,15 +54,17 @@
 
 .tech {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 25px;
   justify-content: start;
-  align-items: start;
+  align-items: center;
 }
 
 .closeButton {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 0px;
+  right: 4px;
   background-color: transparent;
   border: none;
   color: #ccc;
@@ -69,4 +75,53 @@
 
 .closeButton:hover {
   color: #ffc86b;
+}
+
+@media screen and (max-width: 768px) {
+  .modalContainer {
+    width: 95%;
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .image {
+    max-height: 150px;
+  }
+
+  .closeButton {
+    font-size: 1.8rem;
+    top: -8px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modalContainer {
+    width: 90%;
+    padding: 1.2rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .image {
+    max-height: 130px;
+  }
+
+  .closeButton {
+    font-size: 2rem;
+  }
 }
