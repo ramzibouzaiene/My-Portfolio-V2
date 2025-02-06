@@ -58,6 +58,17 @@ export const Navbar = () => {
             </li>
             <li>
               <Link
+                to="skills"
+                className={styles.navLink}
+                smooth={true}
+                duration={500}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('navbar.skills')}
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="projects"
                 className={styles.navLink}
                 smooth={true}
@@ -65,6 +76,17 @@ export const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('navbar.portfolio')}
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="experience"
+                className={styles.navLink}
+                smooth={true}
+                duration={500}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('navbar.experience')}
               </Link>
             </li>
             <li>

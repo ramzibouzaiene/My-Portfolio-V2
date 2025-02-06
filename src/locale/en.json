@@ -3,7 +3,9 @@
     "about": "About Me",
     "services": "Services",
     "portfolio": "Portfolio",
-    "contact": "Contact Me"
+    "contact": "Contact Me",
+    "skills": "Skills",
+    "experience": "Experiences"
   },
 
   "about": {
@@ -54,7 +56,7 @@
     "copyRight": "All rights reserved."
   },
   "experience": {
-    "title": "Experience",
+    "title": "Experiences",
     "backendEngineer": "Backend Engineer",
     "frontendDeveloper": "Frontend Developer",
     "backendEngineerTasks": {

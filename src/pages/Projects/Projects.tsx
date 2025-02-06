@@ -1,6 +1,10 @@
 import styles from './Projects.module.css'
 import projects from '../../data/Projects.json'
-
+import { CustomModal } from '../../components/Modal/Modal'
+import { useState } from 'react'
+import { FaInfoCircle } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+import { TbWorldWww } from 'react-icons/tb'
 interface Project {
   title: string
   description: string
@@ -20,40 +24,45 @@ interface ProjectsProps {
   project: Project
 }
 
-const ProjectCard: React.FC<ProjectsProps> = ({ project }) => {
+const ProjectCard = ({ project }: ProjectsProps) => {
+  const [open, setOpen] = useState(false)
+  const handleOpenModal = () => {
+    setOpen(true)
+  }
+
+  const handleCloseModal = () => {
+    setOpen(false)
+  }
+
+  const handleClickIcons = (url: string | undefined) => {
+    window.open(url, '_blank')
+  }
+
   return (
-    <div className={styles.card} data-aos="slide-up">
-      <img src={project.image} alt={project.title} className={styles.image} />
-      <div className={styles.content}>
-        <h3 className={styles.title}>{project.title}</h3>
-        <p className={styles.description}>{project.description}</p>
-        <div className={styles.links}>
-          {project.liveDemo && (
-            <a
-              href={project.liveDemo}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>
+    <>
+      <CustomModal
+        title={project.title}
+        image={project.image}
+        description={project.description}
+        open={open}
+        handleClose={handleCloseModal}
+        tech={project.technologies}
+        key={project.title}
+      />
+
+      <div className={styles.card} data-aos="slide-up">
+        <img src={project.image} alt={project.title} className={styles.image} />
+        <div className={styles.icons}>
+          <FaInfoCircle onClick={handleOpenModal} />
+          {project?.liveDemo && (
+            <TbWorldWww onClick={() => handleClickIcons(project.liveDemo)} />
           )}
-          {project.sourceCode && (
-            <a
-              href={project.sourceCode}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Source Code
-            </a>
-          )}
-          {project?.mobile && (
-            <a href={project?.mobile} target="_blank" rel="noopener noreferrer">
-              Mobile App
-            </a>
+          {project?.sourceCode && (
+            <FaGithub onClick={() => handleClickIcons(project.sourceCode)} />
           )}
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
@@ -64,8 +73,8 @@ export const Project = () => {
         Portfolio
       </h1>
       <div className={styles.grid}>
-        {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+        {projects.map((project) => (
+          <ProjectCard key={project.title} project={project} />
         ))}
       </div>
     </section>

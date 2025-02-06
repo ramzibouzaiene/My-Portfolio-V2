@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Desc';
+  src: local('Desc'),
+    url(../../assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  font-family: 'Title';
+  src: local('Title'),
+    url(../../assets/fonts/CoreSansC-55Medium.woff) format('woff');
+}
+
+.modalContainer {
+  background-color: #3d3e42;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 25%;
+  border: none;
+}
+
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-family: 'Title';
+  color: rgb(255, 200, 107);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  user-select: none;
+}
+
+.description {
+  font-size: 1.1rem;
+  font-family: 'Desc';
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  user-select: none;
+}
+
+.tech {
+  display: flex;
+  margin-top: 25px;
+  justify-content: start;
+  align-items: start;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.closeButton:hover {
+  color: #ffc86b;
+}

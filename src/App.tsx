@@ -40,11 +40,18 @@ function App() {
         <section id="services" style={{ minHeight: '100vh', padding: '50px' }}>
           <Services />
         </section>
-        <Skills />
+        <section id="skills" style={{ minHeight: '100vh', padding: '50px' }}>
+          <Skills />
+        </section>
         <section id="projects" style={{ minHeight: '100vh', padding: '50px' }}>
           <Project />
         </section>
-        <Experience />
+        <section
+          id="experience"
+          style={{ minHeight: '100vh', padding: '50px' }}
+        >
+          <Experience />
+        </section>
         <section id="contact" style={{ minHeight: '100vh', padding: '50px' }}>
           <Contact />
         </section>
