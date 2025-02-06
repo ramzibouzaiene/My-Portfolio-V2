@@ -1,9 +1,11 @@
 {
   "navbar": {
-    "about": "À propos",
+    "about": "A Propos",
     "services": "Services",
     "portfolio": "Portfolio",
-    "contact": "Contactez-moi"
+    "contact": "Contactez-moi",
+    "skills": "Compétences",
+    "experience": "Expériences"
   },
 
   "about": {
@@ -54,7 +56,7 @@
     "copyRight": "Tous droits réservés."
   },
   "experience": {
-    "title": "Expérience",
+    "title": "Expériences Professionnelles",
     "backendEngineer": "Ingénieur Backend",
     "frontendDeveloper": "Développeur Frontend",
     "backendEngineerTasks": {

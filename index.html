@@ -1,20 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic Meta Tags -->
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>Ramzi's Portfolio</title>
+    <meta
+      name="description"
+      content="Explore Ramzi's portfolio featuring projects, skills, and experiences in modern web development"
+    />
+    <meta
+      name="keywords"
+      content="Ramzi, Portfolio, Web Development, React, Java, Spring Boot, SEO, Node js, Express Js"
+    />
+    <meta name="author" content="Ramzi" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="hhttps://ramzibouzaiene.vercel.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Ramzi's Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore Ramzi's portfolio featuring projects, skills, and experiences in modern web development."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ramzibouzaiene.vercel.app/" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ramzi's Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore Ramzi's portfolio featuring projects, skills, and experiences in modern web development."
+    />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/RBLOGOP.png" />
 
+    <!-- AOS Animation CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ramzi's Portfolio</title>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Main Script -->
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- AOS Animation Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init()
+      AOS.init({
+        delay: 50,
+        duration: 700,
+        easing: 'ease',
+      })
     </script>
   </body>
 </html>

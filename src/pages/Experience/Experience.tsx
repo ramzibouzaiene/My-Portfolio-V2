@@ -31,7 +31,12 @@ export const Experience = () => {
             <h3 className="vertical-timeline-element-title">
               {t('experience.backendEngineer')}
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Proxym-IT</h4>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              style={{ color: '#ffc86b' }}
+            >
+              Proxym Group
+            </h4>
             <ul style={{ fontSize: '17px' }}>
               <li>{t('experience.backendEngineerTasks.1')}</li>
               <li>{t('experience.backendEngineerTasks.2')}</li>
@@ -42,12 +47,6 @@ export const Experience = () => {
               <li>{t('experience.backendEngineerTasks.7')}</li>
               <li>{t('experience.backendEngineerTasks.8')}</li>
               <li>{t('experience.backendEngineerTasks.9')}</li>
-              <div className={styles.spanStyle}>
-                <span>#Finance</span>
-                <span>#DigitalBanking</span>
-                <span>#FinTech</span>
-                <span>#Telecommunication</span>
-              </div>
             </ul>
           </VerticalTimelineElement>
 
@@ -64,7 +63,12 @@ export const Experience = () => {
             <h3 className="vertical-timeline-element-title">
               {t('experience.frontendDeveloper')}
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Sastec TN</h4>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              style={{ color: '#ffc86b' }}
+            >
+              Sastec TN
+            </h4>
             <ul style={{ fontSize: '17px' }}>
               <li>{t('experience.frontendDeveloperTasks.1')}</li>
               <li>{t('experience.frontendDeveloperTasks.2')}</li>
@@ -75,11 +79,6 @@ export const Experience = () => {
               <li>{t('experience.frontendDeveloperTasks.7')}</li>
               <li>{t('experience.frontendDeveloperTasks.8')}</li>
               <li>{t('experience.frontendDeveloperTasks.9')}</li>
-              <div className={styles.spanStyle}>
-                <span>#VideoStreaming</span>
-                <span>#Multimedia</span>
-                <span>#WebTV</span>
-              </div>
             </ul>
           </VerticalTimelineElement>
 
@@ -96,7 +95,10 @@ export const Experience = () => {
             <h3 className="vertical-timeline-element-title">
               {t('experience.frontendDeveloper')}
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
+            <h4
+              className="vertical-timeline-element-subtitle"
+              style={{ color: '#ffc86b' }}
+            >
               Siyou Technology
             </h4>
             <ul style={{ fontSize: '17px' }}>
@@ -106,9 +108,6 @@ export const Experience = () => {
               <li>{t('experience.frontendDeveloperTasks.13')}</li>
               <li>{t('experience.frontendDeveloperTasks.14')}</li>
               <li>{t('experience.frontendDeveloperTasks.15')}</li>
-              <div className={styles.spanStyle}>
-                <span>#E-commerce</span>
-              </div>
             </ul>
           </VerticalTimelineElement>
         </VerticalTimeline>

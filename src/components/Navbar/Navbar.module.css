@@ -32,6 +32,7 @@
   margin: 0;
   padding: 0;
   transition: transform 0.3s ease-in-out;
+  user-select: none;
 }
 
 .navLink {
@@ -41,15 +42,17 @@
   color: #9f9fa0;
   transition: color 0.3s ease;
   font-family: 'MyFontT';
+  user-select: none;
 }
 
 .navLink:hover {
-  color: #ffffff;
+  color: #ffc86b;
 }
 
 .languageDropdown {
   position: relative;
   display: inline-block;
+  user-select: none;
 }
 
 .languageDropdown .flagContainer {

@@ -10,12 +10,14 @@ body {
   background-color: #31333b;
   scroll-behavior: smooth;
   padding: 2%;
+  user-select: none;
 }
 
 h1 {
   font-family: 'TextFont';
   color: #f9f9f9;
   font-size: 3rem;
+  user-select: none;
 }
 
 ::-webkit-scrollbar {

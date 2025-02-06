@@ -8,6 +8,7 @@
   font-family: 'MyFontAbout';
   color: #f7f7f7;
   margin: 0;
+  user-select: none;
 }
 
 hr {
@@ -23,6 +24,7 @@ hr {
   justify-content: center;
   align-items: center;
   font-size: 1.3rem;
+  user-select: none;
 }
 
 .aboutContainer {

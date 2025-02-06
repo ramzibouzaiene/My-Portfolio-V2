@@ -1,17 +1,9 @@
 [
   {
     "title": "iPhone 15 Pro Website Replica",
-    "description": "A creative frontend project replicating Apple’s iPhone 15 Pro website, showcasing 3D models and interactive animations built with Three Js, GSAP, React.js and TailwindCSS.",
+    "description": "I built a creative frontend project replicating the Apple iPhone 15 Pro website, featuring 3D models and interactive animations using Three.js, GSAP, React.js, and TailwindCSS.",
     "role": "Frontend Developer",
-    "technologies": [
-      "React.js",
-      "React Three Fiber",
-      "React Three Drei",
-      "TailwindCSS",
-      "Three.js",
-      "GSAP (Greensock)",
-      "Vite"
-    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "features": [
       "High-performance animations using GSAP for an engaging user experience",
       "Interactive 3D models of iPhone 15 Pro with multiple color and size options",
@@ -30,17 +22,8 @@
   },
   {
     "title": "CORIS Bank Retail",
-    "description": "A highly scalable and secure banking application designed to handle millions of users, providing core banking features and a robust back-office system for efficient management of operations, compliance, and security.",
-    "technologies": [
-      "#Java",
-      "#SpringBoot",
-      "#JavaServerFaces",
-      "#SpringData",
-      "#PostgreSQL",
-      "#Keycloak",
-      "#Liquibase",
-      "#SpringFramework"
-    ],
+    "description": "I built secure banking APIs with Spring Boot, PostgreSQL, and Java for a project inspired by Coris Bank Retail, supporting thousands of users across multiple African nations.",
+    "technologies": ["Java", "SpringBoot", "PostgreSQL", "Keycloak"],
     "role": "Backend Engineer",
     "responsibilities": [
       "Design and implement modular backend architecture",
@@ -61,14 +44,8 @@
   },
   {
     "title": "UBank Data Warehouse",
-    "description": "Developed a PostgreSQL-based data warehouse for a Banking-as-a-Service initiative, centralizing ACH/NACHA and real-time payment data (RTP, FedNow).",
-    "technologies": [
-      "#Java",
-      "#SpringBoot",
-      "#ApacheCamel",
-      "#ApacheSuperset",
-      "#PostgreSQL"
-    ],
+    "description": "I developed a PostgreSQL-based data warehouse for a Banking-as-a-Service initiative, centralizing ACH/NACHA and real-time payment data (RTP, FedNow) for enhanced processing.",
+    "technologies": ["Java", "SpringBoot", "PostgreSQL"],
     "role": "Backend Engineer",
     "responsibilities": [
       "Standardized data fields across ACH, RTP, and FedNow for consistency in the data warehouse",
@@ -81,15 +58,8 @@
   },
   {
     "title": "BNA Bank",
-    "description": "Enhancement of an existing banking system with improved authentication, authorization, and validation features using a custom SPI solution and integration with external identity providers.",
-    "technologies": [
-      "#Java",
-      "#GitLab",
-      "#CI/CD",
-      "#Keycloak",
-      "#SOAP",
-      "#SoapUI"
-    ],
+    "description": "I enhanced an existing banking system by improving authentication, authorization, and validation features with a custom SPI solution, integrated with external identity providers.",
+    "technologies": ["Java", "GitLab", "Keycloak"],
     "role": "Backend Engineer",
     "responsibilities": [
       "Create a Java-based application to enhance banking system security",
@@ -106,17 +76,8 @@
   },
   {
     "title": "BICICI Bank",
-    "description": "Development and implementation of an application for customer management, including networking, files, supply contracts, and agents for the International Bank for Commerce and Industry of Côte d'Ivoire.",
-    "technologies": [
-      "#Java",
-      "#SpringBoot",
-      "#SpringData",
-      "#PostgreSQL",
-      "#BPMN",
-      "#Primefaces",
-      "#Git",
-      "#SpringFramework"
-    ],
+    "description": "I developed and implemented a customer management application for the International Bank for Commerce and Industry of Ivory Coast, covering networking, files, supply contracts, and agent management.",
+    "technologies": ["Java", "SpringBoot", "PostgreSQL", "Git"],
     "role": "Backend Engineer",
     "responsibilities": [
       "Testing and validating web services",
@@ -131,14 +92,8 @@
   },
   {
     "title": "MyTT (Tunisie Telecom)",
-    "description": "Development and implementation of a mobile application for Tunisia Telecom clients as a backend engineer, enabling the management of their telecommunications services, including balance inquiries, online top-ups, and management of offers and services.",
-    "technologies": [
-      "#Java",
-      "#SpringBoot",
-      "#JUnit",
-      "#Mockito",
-      "#SpringFramework"
-    ],
+    "description": "I developed and implemented a mobile application for Tunisia Telecom clients as a backend engineer, enabling the management of telecommunications services like balance inquiries, online top-ups, and offers and service management.",
+    "technologies": ["Java", "SpringBoot"],
     "role": "Backend Engineer",
     "responsibilities": [
       "Designing and implementing modular backend architecture",
@@ -156,15 +111,8 @@
   },
   {
     "title": "Custom Video Player Solution",
-    "description": "Development and customization of an interactive video player using Vue.js and Vuex to enhance the user experience with custom playback controls, interactive subtitles, and adaptive video quality options.",
-    "technologies": [
-      "#Vue.js",
-      "#Vuex",
-      "#JavaScript",
-      "#TypeScript",
-      "#HTML5",
-      "#CSS"
-    ],
+    "description": "I developed and customized an interactive video player using Vue.js and Vuex, enhancing the user experience with custom playback controls, interactive subtitles, and adaptive video quality options.",
+    "technologies": ["HTML", "CSS", "JavaScript", "TypeScript", "Vue"],
     "role": "Frontend Developer",
     "responsibilities": [
       "Designing and implementing user interface for seamless video player experience",
@@ -180,15 +128,14 @@
   },
   {
     "title": "WebTv Platform",
-    "description": "Development of a multimedia content management and distribution platform offering video on demand, WebTV, webinars, and live broadcasting with advanced features.",
+    "description": "I developed a multimedia content management and distribution platform offering video on demand, WebTV, webinars, and live broadcasting with advanced features.",
     "technologies": [
-      "#React.js",
-      "#TypeScript",
-      "#CSS",
-      "#Redux.js",
-      "#RESTAPI",
-      "#GraphQL",
-      "#JavaScript"
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "GraphQL"
     ],
     "role": "Frontend Developer",
     "responsibilities": [
@@ -204,8 +151,8 @@
   },
   {
     "title": "SIYOU TECHNOLOGY (B2B)",
-    "description": "Development of a comprehensive web application to streamline business interactions between companies, built with React, TypeScript, and Ant Design, focusing on an intuitive user experience.",
-    "technologies": ["#React.js", "#TypeScript", "#AntDesign", "#CSS", "#HTML"],
+    "description": "I developed a comprehensive web application to streamline business interactions between companies, built with React, TypeScript, and Ant Design, prioritizing an intuitive user experience.",
+    "technologies": ["HTML", "CSS", "React", "TypeScript"],
     "role": "Frontend Developer",
     "responsibilities": [
       "Contributing to B2B app architecture with React",
@@ -221,8 +168,8 @@
   },
   {
     "title": "SIYOU TECHNOLOGY (B2S2C)",
-    "description": "Development of an e-commerce solution integrating retail sales, online sales, warehouse, and logistics for B2S2C (Business to Shop to Customer) solutions using Angular.",
-    "technologies": ["#Angular", "#TypeScript", "#CSS", "#SCSS", "#HTML"],
+    "description": "I developed an e-commerce solution integrating retail sales, online sales, warehouse management, and logistics for B2S2C (Business to Shop to Customer) solutions using Angular.",
+    "technologies": ["HTML", "CSS", "Angular", "TypeScript"],
     "role": "Frontend Developer",
     "responsibilities": [
       "Developing new features for B2S2C solution using Angular",
@@ -231,7 +178,6 @@
       "Fixing production issues to improve system reliability",
       "Contributing to B2S and S2C Angular projects"
     ],
-
     "challenges": "Integrating various modules and enhancing system reliability.",
     "outcome": "Successfully developed a reliable and scalable B2S2C platform, optimized for both retail and online sales.",
     "liveDemo": "https://www.siyoutechnology.com",
@@ -240,16 +186,8 @@
   },
   {
     "title": "E-Commerce Microservice",
-    "description": "Microservice application with Spring boot and Spring cloud with several of the microservices distributed patterns like: Configuration servers Discovery server (Eureka) Api Gateway Asynchronous communication with Kafka Synchronous communication with Open Feign and Rest Templates Distribute",
-    "technologies": [
-      "#Java",
-      "#SpringBoot",
-      "#SpringCloud",
-      "#MongoDB",
-      "#Keycloak",
-      "#Eureka",
-      "#Kafka"
-    ],
+    "description": "I developed a microservice application using Spring Boot and Spring Cloud, implementing distributed patterns like configuration servers, Eureka for service discovery, API Gateway, asynchronous communication with Kafka, and synchronous communication with OpenFeign and RestTemplate.",
+    "technologies": ["Java", "SpringBoot", "Keycloak"],
     "role": "Backend Developer",
     "responsibilities": [
       "Configuration Server for centralized configuration management",
