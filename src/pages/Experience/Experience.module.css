@@ -1,11 +1,13 @@
 @font-face {
   font-family: 'MyFontExp';
   src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'TitleExp';
   src: url(../../../src/assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  font-display: swap;
 }
 
 .dateStyle {

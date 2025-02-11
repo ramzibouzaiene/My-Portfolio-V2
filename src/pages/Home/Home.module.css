@@ -1,16 +1,19 @@
 @font-face {
   font-family: 'MyFontTitle';
   src: url('/src/assets/fonts/LatinaEssential-Medium.otf') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'MyFontPara';
   src: url('/src/assets/fonts/Ysobel-W01-SemiBold.ttf') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'IMFont';
   src: url('/src/assets/fonts/upcfl_1.ttf') format('woff');
+  font-display: swap;
 }
 
 .meContainer {

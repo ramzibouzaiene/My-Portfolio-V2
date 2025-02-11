@@ -2,21 +2,25 @@
   font-family: 'TextFont';
   src: url(../../assets/fonts/fonnts.com-Mencken-Std-Text-Extra-Bold.otf)
     format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'ContactFont';
   src: url(../../assets/fonts/GoldenSans-LightDemo.otf) format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'EndTitleFont';
   src: url(../../assets/fonts/TabacG3Medium.woff) format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'MyFontT';
   src: url(../../../src/assets/fonts/WrightRoman-SemiBold.woff) format('woff');
+  font-display: swap;
 }
 
 .contactText {

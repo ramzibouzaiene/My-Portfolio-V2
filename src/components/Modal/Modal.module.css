@@ -1,11 +1,13 @@
 @font-face {
   font-family: 'Desc';
   src: url(../../assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Title';
   src: url(../../assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  font-display: swap;
 }
 
 .modalContainer {

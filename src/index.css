@@ -2,6 +2,7 @@
   font-family: 'TextFont';
   src: url(../src/assets/fonts/fonnts.com-Mencken-Std-Text-Extra-Bold.otf)
     format('woff');
+  font-display: swap;
 }
 
 body {

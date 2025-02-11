@@ -5,6 +5,10 @@ import { useTranslation } from 'react-i18next'
 
 export const Home = () => {
   const { t } = useTranslation()
+
+  const handleResumeClick = () => {
+    window.open(resume, '_blank')
+  }
   return (
     <>
       <div className={styles.meContainer}>
@@ -15,10 +19,8 @@ export const Home = () => {
           <p className={styles.mainPara}>
             {t('home.description')} <br /> {t('home.secondDescription')}
           </p>
-          <button className={styles.btnStyle}>
-            <a href={resume} target="_blank" className={styles.linkStyle}>
-              {t('home.resume')}
-            </a>
+          <button className={styles.btnStyle} onClick={handleResumeClick}>
+            {t('home.resume')}
           </button>
         </div>
         <img

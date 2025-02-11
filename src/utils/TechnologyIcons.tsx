@@ -51,7 +51,13 @@ export const TechnologyIcons = ({ technologies }: TechnologyIconsProps) => {
         return (
           <div key={index}>
             {iconSrc ? (
-              <img src={iconSrc} alt={tech} width={50} height={50} />
+              <img
+                src={iconSrc}
+                alt={tech}
+                width={50}
+                height={50}
+                loading="lazy"
+              />
             ) : (
               <span>{tech}</span>
             )}
