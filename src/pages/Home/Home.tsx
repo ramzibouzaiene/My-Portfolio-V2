@@ -1,5 +1,5 @@
 import styles from './Home.module.css'
-import imdCode from './../../assets/images/ME3.png'
+import imdCode from './../../assets/images/ramzi.b.png'
 import resume from '../../assets/files/CV_RAMZI_BOUZAIENE.pdf'
 import { useTranslation } from 'react-i18next'
 
