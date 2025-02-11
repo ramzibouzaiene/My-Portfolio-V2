@@ -23,12 +23,7 @@ export const Home = () => {
             {t('home.resume')}
           </button>
         </div>
-        <img
-          src={imdCode}
-          className={styles.styleImage}
-          alt="ramzi is photo"
-          loading="lazy"
-        />
+        <img src={imdCode} className={styles.styleImage} alt="ramzi is photo" />
       </div>
     </>
   )
