@@ -1,8 +1,7 @@
 @font-face {
   font-family: 'TextFont';
-  src: local('TextFont'),
-    url(../src/assets/fonts/fonnts.com-Mencken-Std-Text-Extra-Bold.otf)
-      format('woff');
+  src: url(../src/assets/fonts/fonnts.com-Mencken-Std-Text-Extra-Bold.otf)
+    format('woff');
 }
 
 body {

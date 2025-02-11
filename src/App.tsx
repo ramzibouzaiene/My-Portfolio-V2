@@ -43,7 +43,7 @@ function App() {
         <section id="skills" style={{ minHeight: '100vh', padding: '50px' }}>
           <Skills />
         </section>
-        <section id="projects" style={{ minHeight: '100vh', padding: '50px' }}>
+        <section id="portfolio" style={{ minHeight: '100vh', padding: '50px' }}>
           <Project />
         </section>
         <section

@@ -34,72 +34,29 @@ export const Navbar = () => {
               isMenuOpen ? styles.showMenu : ''
             }`}
           >
-            <li>
-              <Link
-                to="about"
-                className={styles.navLink}
-                smooth={true}
-                duration={500}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('navbar.about')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="services"
-                className={styles.navLink}
-                smooth={true}
-                duration={500}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('navbar.services')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="skills"
-                className={styles.navLink}
-                smooth={true}
-                duration={500}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('navbar.skills')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="projects"
-                className={styles.navLink}
-                smooth={true}
-                duration={500}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('navbar.portfolio')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="experience"
-                className={styles.navLink}
-                smooth={true}
-                duration={500}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('navbar.experience')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="contact"
-                className={styles.navLink}
-                smooth={true}
-                duration={500}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('navbar.contact')}
-              </Link>
-            </li>
+            {[
+              'about',
+              'services',
+              'skills',
+              'portfolio',
+              'experience',
+              'contact',
+            ].map((section) => (
+              <li key={section}>
+                <Link
+                  to={section}
+                  className={styles.navLink}
+                  smooth={true}
+                  duration={500}
+                  onClick={() => setIsMenuOpen(false)}
+                  as="a"
+                  href={`#${section}`}
+                  aria-label={section}
+                >
+                  {t(`navbar.${section}`)}
+                </Link>
+              </li>
+            ))}
             <li className={styles.languageDropdown}>
               <FaLanguage size={33} />
               <div className={styles.flagContainer}>

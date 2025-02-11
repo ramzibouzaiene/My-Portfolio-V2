@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'Desc';
-  src: local('Desc'),
-    url(../../assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  src: url(../../assets/fonts/Exec-Corners-Regular.woff) format('woff');
+}
+
+@font-face {
   font-family: 'Title';
-  src: local('Title'),
-    url(../../assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  src: url(../../assets/fonts/CoreSansC-55Medium.woff) format('woff');
 }
 
 .modalContainer {
@@ -21,6 +22,7 @@
   transform: translate(-50%, -50%);
   border: none;
   z-index: 1000;
+  overflow: none;
 }
 
 .image {

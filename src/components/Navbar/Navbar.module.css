@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'MyFontT';
-  src: local('MyFontT'),
-    url(../../../src/assets/fonts/WrightRoman-SemiBold.woff) format('woff');
+  src: url(../../../src/assets/fonts/WrightRoman-SemiBold.woff) format('woff');
 }
 
 .navbar {
