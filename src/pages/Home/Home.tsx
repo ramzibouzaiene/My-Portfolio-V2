@@ -21,7 +21,12 @@ export const Home = () => {
             </a>
           </button>
         </div>
-        <img src={imdCode} className={styles.styleImage} />
+        <img
+          src={imdCode}
+          className={styles.styleImage}
+          alt="ramzi is photo"
+          loading="lazy"
+        />
       </div>
     </>
   )

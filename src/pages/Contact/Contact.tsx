@@ -40,21 +40,33 @@ export const Contact = () => {
       <div className={styles.secondTitleContainer}>
         <hr className={styles.line} />
         <div className={styles.iconsContainer}>
-          <a href="https://github.com/ramzibouzaiene" target="_blank">
+          <a
+            href="https://github.com/ramzibouzaiene"
+            target="_blank"
+            aria-label="Github"
+          >
             <FaGithub
               style={{ color: '#fff', fontSize: '3rem', cursor: 'pointer' }}
               className={styles.icons}
             />
           </a>
 
-          <a href="https://www.linkedin.com/in/ramzibouzaiene/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/ramzibouzaiene/"
+            target="_blank"
+            aria-label="Linkedin"
+          >
             <FaLinkedin
               style={{ color: '#fff', fontSize: '3rem', cursor: 'pointer' }}
               className={styles.icons}
             />
           </a>
 
-          <a href="https://medium.com/@ramzibouzaiene.dev" target="_blank">
+          <a
+            href="https://medium.com/@ramzibouzaiene.dev"
+            target="_blank"
+            aria-label="Medium"
+          >
             <IoLogoMedium
               style={{ color: '#fff', fontSize: '3rem', cursor: 'pointer' }}
               className={styles.icons}

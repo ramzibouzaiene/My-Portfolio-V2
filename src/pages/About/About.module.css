@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'MyFontAbout';
-  src: local('MyFontAbout'),
-    url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
 }
 .aboutPara {
   font-size: 1.3rem;

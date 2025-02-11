@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'TechFont';
-  src: local('TechFont'),
-    url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
 }
 
 .mainContainer {

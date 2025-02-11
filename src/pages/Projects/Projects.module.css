@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'MyFontPrj';
-  src: local('MyFontPrj'),
-    url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+}
+
+@font-face {
   font-family: 'TitlePrj';
-  src: local('TitlePrj'),
-    url(../../../src/assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  src: url(../../../src/assets/fonts/CoreSansC-55Medium.woff) format('woff');
 }
 
 .grid {

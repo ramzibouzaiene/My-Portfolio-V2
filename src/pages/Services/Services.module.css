@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'SrvTitle';
-  src: local('SrvTitle'),
-    url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+  src: url(../../../src/assets/fonts/Exec-Corners-Regular.woff) format('woff');
+}
+
+@font-face {
   font-family: 'TitleSrv';
-  src: local('TitleSrv'),
-    url(../../../src/assets/fonts/CoreSansC-55Medium.woff) format('woff');
+  src: url(../../../src/assets/fonts/CoreSansC-55Medium.woff) format('woff');
 }
 
 .mainContainer {
