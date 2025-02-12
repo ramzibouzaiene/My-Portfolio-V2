@@ -18,6 +18,7 @@ interface Project {
   sourceCode?: string
   image?: string
   mobile?: string
+  cover?: string
 }
 
 interface ProjectsProps {
@@ -51,7 +52,11 @@ const ProjectCard = ({ project }: ProjectsProps) => {
       />
 
       <div className={styles.card} data-aos="slide-up">
-        <img src={project.image} alt={project.title} className={styles.image} />
+        <img
+          src={project.cover ? project.cover : project.image}
+          alt={project.title}
+          className={styles.image}
+        />
         <div className={styles.icons}>
           <FaInfoCircle onClick={handleOpenModal} />
           {project?.liveDemo && (

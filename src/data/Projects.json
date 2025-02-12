@@ -3,7 +3,7 @@
     "title": "iPhone 15 Pro Website Replica",
     "description": "I built a creative frontend project replicating the Apple iPhone 15 Pro website, featuring 3D models and interactive animations using Three.js, GSAP, React.js, and TailwindCSS.",
     "role": "Frontend Developer",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "technologies": ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
     "features": [
       "High-performance animations using GSAP for an engaging user experience",
       "Interactive 3D models of iPhone 15 Pro with multiple color and size options",
@@ -18,7 +18,8 @@
     "outcome": "Successfully demonstrated proficiency in advanced frontend technologies, creating a visually stunning and responsive website replica.",
     "liveDemo": "https://apple-15-web-site.vercel.app/",
     "sourceCode": "https://github.com/ramzibouzaiene/Apple-WebSite",
-    "image": "/images/apple.png"
+    "image": "/images/apple.png",
+    "cover": "/images/apple-logo.png"
   },
   {
     "title": "CORIS Bank Retail",
@@ -135,6 +136,7 @@
       "JavaScript",
       "TypeScript",
       "React",
+      "Redux",
       "GraphQL"
     ],
     "role": "Frontend Developer",
@@ -152,7 +154,7 @@
   {
     "title": "SIYOU TECHNOLOGY (B2B)",
     "description": "I developed a comprehensive web application to streamline business interactions between companies, built with React, TypeScript, and Ant Design, prioritizing an intuitive user experience.",
-    "technologies": ["HTML", "CSS", "React", "TypeScript"],
+    "technologies": ["HTML", "CSS", "React", "AntDesign", "TypeScript"],
     "role": "Frontend Developer",
     "responsibilities": [
       "Contributing to B2B app architecture with React",
@@ -187,7 +189,7 @@
   {
     "title": "E-Commerce Microservice",
     "description": "I developed a microservice application using Spring Boot and Spring Cloud, implementing distributed patterns like configuration servers, Eureka for service discovery, API Gateway, asynchronous communication with Kafka, and synchronous communication with OpenFeign and RestTemplate.",
-    "technologies": ["Java", "SpringBoot", "Keycloak"],
+    "technologies": ["Java", "SpringBoot", "Keycloak", "Kafka"],
     "role": "Backend Developer",
     "responsibilities": [
       "Configuration Server for centralized configuration management",
@@ -199,6 +201,7 @@
     ],
     "outcome": "Successfully built and deployed a robust microservices architecture using Spring Boot, Spring Cloud, Kafka, and Kubernetes, demonstrating key patterns like service discovery, centralized configuration, and event-driven communication.",
     "sourceCode": "https://github.com/ramzibouzaiene/e-commerce-microservice-monorepo",
-    "image": "/images/archii.png"
+    "image": "/images/archii.png",
+    "cover": "/images/spring.png"
   }
 ]
