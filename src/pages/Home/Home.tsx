@@ -1,5 +1,5 @@
 import styles from './Home.module.css'
-import imdCode from './../../assets/images/ramzi.b.png'
+import imdCode from '/images/ramzi.b.png'
 import resume from '../../assets/files/CV_RAMZI_BOUZAIENE.pdf'
 import { useTranslation } from 'react-i18next'
 
@@ -23,7 +23,12 @@ export const Home = () => {
             {t('home.resume')}
           </button>
         </div>
-        <img src={imdCode} className={styles.styleImage} alt="ramzi is photo" />
+        <img
+          src={imdCode}
+          className={styles.styleImage}
+          alt="ramzi is photo"
+          loading="eager"
+        />
       </div>
     </>
   )

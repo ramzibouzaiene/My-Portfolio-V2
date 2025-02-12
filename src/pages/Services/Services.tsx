@@ -1,10 +1,10 @@
 import styles from './Services.module.css'
-import front from '../../assets/images/front.png'
-import back from '../../assets/images/code.png'
-import fullStack from '../../assets/images/image.png'
-import devOps from '../../assets/images/devOps.png'
-import image from '../../assets/images/maintain.png'
-import training from '../../assets/images/support.png'
+import front from '/images/front.png'
+import back from '/images/code.png'
+import fullStack from '/images/image.png'
+import devOps from '/images/devOps.png'
+import image from '/images/maintain.png'
+import training from '/images/support.png'
 import { useTranslation } from 'react-i18next'
 
 export const Services = () => {
