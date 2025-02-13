@@ -1,6 +1,6 @@
 import styles from './Home.module.css'
 import imdCode from '/images/ramzi.b.png'
-import resume from '../../assets/files/CV_RAMZI_BOUZAIENE.pdf'
+import resume from '../../assets/files/Ramzi_Bouzaiene_FullStack_Engineer.pdf'
 import { useTranslation } from 'react-i18next'
 
 export const Home = () => {
