@@ -56,6 +56,7 @@ const ProjectCard = ({ project }: ProjectsProps) => {
           src={project.cover ? project.cover : project.image}
           alt={project.title}
           className={styles.image}
+          loading="lazy"
         />
         <div className={styles.icons}>
           <FaInfoCircle onClick={handleOpenModal} />
