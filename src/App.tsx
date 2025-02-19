@@ -52,7 +52,7 @@ function App() {
         >
           <Experience />
         </section>
-        <section id="contact" style={{ minHeight: '100vh', padding: '50px' }}>
+        <section id="contact" style={{ padding: '50px' }}>
           <Contact />
         </section>
       </div>
