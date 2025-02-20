@@ -1,13 +1,16 @@
 import styles from './Home.module.css'
 import imdCode from '/images/ramzi.b.png'
-import resume from '../../assets/files/Ramzi_Bouzaiene_FullStack_Engineer.pdf'
+import resumeEN from '../../assets/files/Ramzi_Bouzaiene_Software_Engineer_CV.pdf'
+import resumeFR from '../../assets/files/Ramzi_Bouzaiene_CV_FR.pdf'
+
 import { useTranslation } from 'react-i18next'
 
 export const Home = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
   const handleResumeClick = () => {
-    window.open(resume, '_blank')
+    const selectedResume = i18n.language.startsWith('fr') ? resumeFR : resumeEN
+    window.open(selectedResume, '_blank')
   }
   return (
     <>
