@@ -60,32 +60,26 @@
     "backendEngineer": "Backend Engineer",
     "frontendDeveloper": "Frontend Developer",
     "backendEngineerTasks": {
-      "1": "Backend engineer contributing to banking and telecom projects with Java, Spring Boot, JSF, PostgreSQL, Maven, Keycloak, Flowable, and JUnit.",
-      "2": "Design and implement scalable backend solutions focusing on retail and corporate banking functionalities.",
-      "3": "Maintain a backoffice system using JSP and PrimeFaces for efficient administration.",
-      "4": "Developed scalable banking apps serving millions of users.",
-      "5": "Designed and implemented business processes using BPMN (Flowable).",
-      "6": "Built and deployed Java projects with Keycloak SPI for advanced authentication, integrated with Vasco (SOAP).",
-      "7": "Mentor interns, fostering growth and offering guidance.",
-      "8": "Collaborate with team members to deliver essential backend functionalities.",
-      "9": "Actively learn and seek opportunities for growth in backend development."
+      "1": "Built scalable Java/Spring Boot backends for banking applications, serving 1M+ users with 99.9% uptime and 30% faster APIs.",
+      "2": "Architected and implemented secure backend infrastructures for retail and corporate banking, enhancing data integrity and access control, processing 2M+ annual transactions.",
+      "3": "Developed and maintained a JSP/PrimeFaces-based back-office system, streamlining administrative operations for bank management that cut admin time by 35%.",
+      "4": "Contributed to mission-critical banking applications, supporting millions of users with secure and efficient financial services.",
+      "5": "Designed and optimized business processes using BPMN and Flowable, improving workflow automation and boosting efficiency by 30%.",
+      "6": "Successfully developed and deployed a Java-based authentication system with a custom Keycloak SPI and SOAP, enhancing security by 25% and seamlessly integrated with the existing banking application.",
+      "7": "Mentored interns by providing technical guidance, fostering professional growth, and cultivating best coding practices."
     },
     "frontendDeveloperTasks": {
-      "1": "Create reusable React components and export to Bit cloud for reuse.",
-      "2": "Develop and optimize real-time streaming applications (live meetings, video streaming).",
-      "3": "Maintain and enhance projects by adding features and fixing bugs.",
-      "4": "Write unit tests with React Testing Library and Jest.",
-      "5": "Deliver new features and ensure responsiveness in web design.",
-      "6": "Continuously learn best practices and improve performance.",
-      "7": "Maintain and enhance a video player project with Vue.js and Vuex.",
-      "8": "Migrate projects from REST APIs to GraphQL.",
-      "9": "Fix production issues.",
-      "10": "Development of new features and maintaining code of a large complete B2S2C (Business to Shop to Customer) solutions with Angular.",
-      "11": "Designed and implemented responsive user interfaces.",
-      "12": "Worked with backend team to integrate APIs.",
-      "13": "Fix production issues to enhance system reliability.",
-      "14": "Working on two Angular projects: B2S (Business to Shop), and S2C (Shop to Customer).",
-      "15": "Development of the new project of B2B (Business to Business) with React/TypeScript and Ant Design."
+      "1": "Developed 20+ reusable React.js components, reducing development time by 25%, and deployed on Bit Cloud.",
+      "2": "Enhanced real-time streaming for live meetings and video services, reducing latency by 30% and boosting concurrent user capacity by 50%.",
+      "3": "Maintained projects by adding features, optimizing performance, and fixing bugs.",
+      "4": "Achieved 95% test coverage with Jest/React Testing Library, cutting production bugs by 40%.",
+      "5": "Transformed UI/UX designs into responsive, high-performance sites, boosting engagement by 30% and reducing load time.",
+      "6": "Led the development of a Vue.js video player, implemented new features, and optimized performance, achieving a 15% improvement.",
+      "7": "Migrated projects from REST to GraphQL, reducing API calls by 40% and doubling data retrieval speed.",
+      "8": "Developed new features and maintained a large B2S2C solution using Angular.",
+      "9": "Resolved critical issues, reducing system downtime by 40%.",
+      "10": "Contributed to the development of two Angular projects: B2S (Business to Shop) and S2C (Shop to Customer).",
+      "11": "Built a scalable B2B platform with React, TypeScript, and Ant Design, enhancing UI responsiveness by 50%."
     }
   }
 }

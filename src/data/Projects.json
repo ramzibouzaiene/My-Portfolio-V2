@@ -1,7 +1,8 @@
 [
   {
     "title": "iPhone 15 Pro Website Replica",
-    "description": "I built a creative frontend project replicating the Apple iPhone 15 Pro website, featuring 3D models and interactive animations using Three.js, GSAP, React.js, and TailwindCSS.",
+    "descriptionEn": "I built a creative frontend project replicating the Apple iPhone 15 Pro website, featuring 3D models and interactive animations using Three.js, GSAP, React.js, and TailwindCSS.",
+    "descriptionFr": "J'ai créé un projet frontend créatif reproduisant le site web de l'iPhone 15 Pro d'Apple, avec des modèles 3D et des animations interactives en utilisant Three.js, GSAP, React.js et TailwindCSS.",
     "role": "Frontend Developer",
     "technologies": ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
     "features": [
@@ -23,7 +24,8 @@
   },
   {
     "title": "CORIS Bank Retail",
-    "description": "I built secure banking APIs with Spring Boot, PostgreSQL, and Java for a project inspired by Coris Bank Retail, supporting thousands of users across multiple African nations.",
+    "descriptionEn": "I built secure banking APIs with Spring Boot, PostgreSQL, and Java for a project inspired by Coris Bank Retail, supporting thousands of users across multiple African nations.",
+    "descriptionFr": "J'ai développé des API bancaires sécurisées avec Spring Boot, PostgreSQL et Java pour un projet inspiré de Coris Bank Retail, prenant en charge des milliers d'utilisateurs à travers plusieurs pays africains.",
     "technologies": ["Java", "SpringBoot", "PostgreSQL", "Keycloak"],
     "role": "Backend Engineer",
     "responsibilities": [
@@ -45,7 +47,8 @@
   },
   {
     "title": "UBank Data Warehouse",
-    "description": "I developed a PostgreSQL-based data warehouse for a Banking-as-a-Service initiative, centralizing ACH/NACHA and real-time payment data (RTP, FedNow) for enhanced processing.",
+    "descriptionEn": "I developed a PostgreSQL-based data warehouse for a Banking-as-a-Service initiative, centralizing ACH/NACHA and real-time payment data (RTP, FedNow) for enhanced processing.",
+    "descriptionFr": "J'ai développé un entrepôt de données basé sur PostgreSQL pour une initiative Banking-as-a-Service, centralisant les données de paiements ACH/NACHA et en temps réel (RTP, FedNow) pour un traitement optimisé.",
     "technologies": ["Java", "SpringBoot", "PostgreSQL"],
     "role": "Backend Engineer",
     "responsibilities": [
@@ -59,7 +62,8 @@
   },
   {
     "title": "BNA Bank",
-    "description": "I enhanced an existing banking system by improving authentication, authorization, and validation features with a custom SPI solution, integrated with external identity providers.",
+    "descriptionEn": "I enhanced an existing banking system by improving authentication, authorization, and validation features with a custom SPI solution, integrated with external identity providers.",
+    "descriptionFr": "J'ai amélioré un système bancaire existant en renforçant l'authentification, l'autorisation et les fonctionnalités de validation grâce à une solution SPI personnalisée, intégrée à des fournisseurs d'identité externes.",
     "technologies": ["Java", "GitLab", "Keycloak"],
     "role": "Backend Engineer",
     "responsibilities": [
@@ -77,7 +81,8 @@
   },
   {
     "title": "BICICI Bank",
-    "description": "I developed and implemented a customer management application for the International Bank for Commerce and Industry of Ivory Coast, covering networking, files, supply contracts, and agent management.",
+    "descriptionEn": "I developed and implemented a customer management application for the International Bank for Commerce and Industry of Ivory Coast, covering networking, files, supply contracts, and agent management.",
+    "descriptionFr": "J'ai développé et mis en œuvre une application de gestion client pour la Banque Internationale pour le Commerce et l'Industrie de Côte d'Ivoire, couvrant la mise en réseau, les dossiers, les contrats d'approvisionnement et la gestion des agents.",
     "technologies": ["Java", "SpringBoot", "PostgreSQL", "Git"],
     "role": "Backend Engineer",
     "responsibilities": [
@@ -93,7 +98,8 @@
   },
   {
     "title": "MyTT (Tunisie Telecom)",
-    "description": "I developed and implemented a mobile application for Tunisia Telecom clients as a backend engineer, enabling the management of telecommunications services like balance inquiries, online top-ups, and offers and service management.",
+    "descriptionEn": "I developed and implemented a mobile application for Tunisia Telecom clients as a backend engineer, enabling the management of telecommunications services like balance inquiries, online top-ups, and offers and service management.",
+    "descriptionFr": "J'ai développé et mis en œuvre une application mobile pour les clients de Tunisie Télécom en tant qu'ingénieur backend, permettant la gestion des services de télécommunications tels que les consultations de solde, les recharges en ligne, ainsi que la gestion des offres et des services.",
     "technologies": ["Java", "SpringBoot"],
     "role": "Backend Engineer",
     "responsibilities": [
@@ -112,7 +118,8 @@
   },
   {
     "title": "Custom Video Player Solution",
-    "description": "I developed and customized an interactive video player using Vue.js and Vuex, enhancing the user experience with custom playback controls, interactive subtitles, and adaptive video quality options.",
+    "descriptionEn": "I developed and customized an interactive video player using Vue.js and Vuex, enhancing the user experience with custom playback controls, interactive subtitles, and adaptive video quality options.",
+    "descriptionFr": "J'ai développé et personnalisé un lecteur vidéo interactif avec Vue.js et Vuex, améliorant l'expérience utilisateur grâce à des commandes de lecture sur mesure, des sous-titres interactifs et des options de qualité vidéo adaptative.",
     "technologies": ["HTML", "CSS", "JavaScript", "TypeScript", "Vue"],
     "role": "Frontend Developer",
     "responsibilities": [
@@ -129,7 +136,8 @@
   },
   {
     "title": "WebTv Platform",
-    "description": "I developed a multimedia content management and distribution platform offering video on demand, WebTV, webinars, and live broadcasting with advanced features.",
+    "descriptionEn": "I developed a multimedia content management and distribution platform offering video on demand, WebTV, webinars, and live broadcasting with advanced features.",
+    "descriptionFr": "J'ai développé une plateforme de gestion et de distribution de contenus multimédias offrant de la vidéo à la demande, une WebTV, des webinaires et de la diffusion en direct avec des fonctionnalités avancées.",
     "technologies": [
       "HTML",
       "CSS",
@@ -153,7 +161,8 @@
   },
   {
     "title": "SIYOU TECHNOLOGY (B2B)",
-    "description": "I developed a comprehensive web application to streamline business interactions between companies, built with React, TypeScript, and Ant Design, prioritizing an intuitive user experience.",
+    "descriptionEn": "I developed a comprehensive web application to streamline business interactions between companies, built with React, TypeScript, and Ant Design, prioritizing an intuitive user experience.",
+    "descriptionFr": "J'ai développé une application web complète pour simplifier les interactions commerciales entre entreprises, conçue avec React, TypeScript et Ant Design, en mettant l'accent sur une expérience utilisateur intuitive.",
     "technologies": ["HTML", "CSS", "React", "AntDesign", "TypeScript"],
     "role": "Frontend Developer",
     "responsibilities": [
@@ -170,7 +179,8 @@
   },
   {
     "title": "SIYOU TECHNOLOGY (B2S2C)",
-    "description": "I developed an e-commerce solution integrating retail sales, online sales, warehouse management, and logistics for B2S2C (Business to Shop to Customer) solutions using Angular.",
+    "descriptionEn": "I developed an e-commerce solution integrating retail sales, online sales, warehouse management, and logistics for B2S2C (Business to Shop to Customer) solutions using Angular.",
+    "descriptionFr": "J'ai développé une solution e-commerce intégrant les ventes au détail, les ventes en ligne, la gestion des stocks et la logistique pour des solutions B2S2C (Business to Shop to Customer) en utilisant Angular.",
     "technologies": ["HTML", "CSS", "Angular", "TypeScript"],
     "role": "Frontend Developer",
     "responsibilities": [
@@ -188,7 +198,8 @@
   },
   {
     "title": "E-Commerce Microservice",
-    "description": "I developed a microservice application using Spring Boot and Spring Cloud, implementing distributed patterns like configuration servers, Eureka for service discovery, API Gateway, asynchronous communication with Kafka, and synchronous communication with OpenFeign and RestTemplate.",
+    "descriptionEn": "I developed a microservice application using Spring Boot and Spring Cloud, implementing distributed patterns like configuration servers, Eureka for service discovery, API Gateway, asynchronous communication with Kafka, and synchronous communication with OpenFeign and RestTemplate.",
+    "descriptionFr": "J'ai développé une application microservices en utilisant Spring Boot et Spring Cloud, en implémentant des modèles distribués tels que des serveurs de configuration, Eureka pour la découverte de services, API Gateway, communication asynchrone avec Kafka, et communication synchrone avec OpenFeign et RestTemplate.",
     "technologies": ["Java", "SpringBoot", "Keycloak", "Kafka"],
     "role": "Backend Developer",
     "responsibilities": [

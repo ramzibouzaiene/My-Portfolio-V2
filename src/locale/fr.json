@@ -60,32 +60,26 @@
     "backendEngineer": "Ingénieur Backend",
     "frontendDeveloper": "Développeur Frontend",
     "backendEngineerTasks": {
-      "1": "Ingénieur backend contribuant à des projets bancaires et télécom avec Java, Spring Boot, JSF, PostgreSQL, Maven, Keycloak, Flowable, et JUnit.",
-      "2": "Concevoir et mettre en œuvre des solutions backend évolutives en se concentrant sur les fonctionnalités bancaires de détail et d'entreprise.",
-      "3": "Maintenir un système de backoffice en utilisant JSP et PrimeFaces pour une gestion efficace.",
-      "4": "Développé des applications bancaires évolutives servant des millions d'utilisateurs.",
-      "5": "Conçu et mis en œuvre des processus métier en utilisant BPMN (Flowable).",
-      "6": "Construit et déployé des projets Java avec Keycloak SPI pour une authentification avancée, intégré à Vasco (SOAP).",
-      "7": "Encadrer les stagiaires, favoriser leur croissance et leur offrir des conseils.",
-      "8": "Collaborer avec les membres de l'équipe pour fournir les fonctionnalités backend essentielles.",
-      "9": "Apprendre activement et rechercher des opportunités de croissance dans le développement backend."
+      "1": "Développé des systèmes back-end évolutifs en Java/Spring Boot pour des applications bancaires, desservant plus d’un million d’utilisateurs avec une disponibilité de 99,9% et des API 30% plus rapides.",
+      "2": "Conçu et mis en place des infrastructures backend sécurisées pour la banque de détail et la banque d’entreprise, renforçant l’intégrité des données et le contrôle d’accès, avec plus de 2 millions de transactions annuelles.",
+      "3": "Développé et maintenu un système back-office basé sur JSP/PrimeFaces, rationalisant les opérations administratives pour la gestion bancaire et réduisant le temps administratif de 35%.",
+      "4": "Contribué à des applications bancaires critiques, offrant des services financiers sécurisés et efficaces à des millions d’utilisateurs.",
+      "5": "Conçu et optimisé des processus métier à l’aide de BPMN et Flowable, améliorant l’automatisation des workflows et augmentant l’efficacité de 30%.",
+      "6": "Créé un système d’authentification basé sur Java avec un SPI personnalisé pour Keycloak et SOAP, renforçant la sécurité de 25%.",
+      "7": "Encadré des stagiaires en fournissant des conseils techniques, en favorisant leur développement professionnel et en cultivant les meilleures pratiques de codage."
     },
     "frontendDeveloperTasks": {
-      "1": "Créer des composants React réutilisables et les exporter vers Bit Cloud pour les réutiliser.",
-      "2": "Développer et optimiser des applications de streaming en temps réel (réunions en direct, streaming vidéo).",
-      "3": "Maintenir et améliorer les projets en ajoutant des fonctionnalités et en corrigeant les bugs.",
-      "4": "Écrire des tests unitaires avec React Testing Library et Jest.",
-      "5": "Fournir de nouvelles fonctionnalités et garantir la réactivité du design web.",
-      "6": "Apprendre en continu les meilleures pratiques et améliorer les performances.",
-      "7": "Maintenir et améliorer un projet de lecteur vidéo avec Vue.js et Vuex.",
-      "8": "Migrer des projets des API REST vers GraphQL.",
-      "9": "Corriger les problèmes de production.",
-      "10": "Développement de nouvelles fonctionnalités et maintien du code d'une solution complète B2S2C (Business to Shop to Customer) avec Angular.",
-      "11": "Conçu et mis en œuvre des interfaces utilisateur réactives.",
-      "12": "Travaillé avec l'équipe backend pour intégrer les API.",
-      "13": "Corriger les problèmes de production pour améliorer la fiabilité du système.",
-      "14": "Travailler sur deux projets Angular : B2S (Business to Shop), et S2C (Shop to Customer).",
-      "15": "Développement du nouveau projet B2B (Business to Business) avec React/TypeScript et Ant Design."
+      "1": "Création de 20+ composants React.js modulaires, optimisant le cycle de développement (+25% gain sur 5+ projets).",
+      "2": "Optimisation du streaming en temps réel : latence -30%, capacité utilisateur +50%.",
+      "3": "Maintenance proactive : ajout de fonctionnalités, amélioration des performances, correction de bugs.",
+      "4": "Tests unitaires (95% coverage via Jest/RTL) réduisant les bugs en prod de 40%.",
+      "5": "Conversion de maquettes UI/UX en sites responsives : engagement +30%, chargement optimisé.",
+      "6": "Dirigé le projet lecteur vidéo Vue.js, intégrant des fonctionnalités pour une performance améliorée de 15%.",
+      "7": "Migration REST vers GraphQL : appels API -40%, débit de données doublé.",
+      "8": "Développé de nouvelles fonctionnalités et assuré la maintenance d’une solution B2S2C d’envergure utilisant Angular.",
+      "9": "Résolu des problèmes critiques, réduisant ainsi l’indisponibilité du système de 40%.",
+      "10": "Contribué au développement de deux projets Angular : B2S (Business to Shop) et S2C (Shop to Customer).",
+      "11": "Conçu une plateforme B2B évolutive avec React, TypeScript et Ant Design, améliorant la réactivité de l’interface utilisateur de 50%."
     }
   }
 }

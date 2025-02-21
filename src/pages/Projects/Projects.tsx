@@ -1,50 +1,58 @@
-import styles from './Projects.module.css'
-import projects from '../../data/Projects.json'
-import { CustomModal } from '../../components/Modal/Modal'
-import { useState } from 'react'
-import { FaInfoCircle } from 'react-icons/fa'
-import { FaGithub } from 'react-icons/fa'
-import { TbWorldWww } from 'react-icons/tb'
+import styles from "./Projects.module.css";
+import projects from "../../data/Projects.json";
+import { CustomModal } from "../../components/Modal/Modal";
+import { useState } from "react";
+import { FaInfoCircle } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
+import { useTranslation } from "react-i18next";
+
 interface Project {
-  title: string
-  description: string
-  technologies: string[]
-  role?: string
-  responsibilities?: string[]
-  features?: string[]
-  challenges?: string
-  outcome?: string
-  liveDemo?: string
-  sourceCode?: string
-  image?: string
-  mobile?: string
-  cover?: string
+  title: string;
+  descriptionEn: string;
+  descriptionFr: string;
+  technologies: string[];
+  role?: string;
+  responsibilities?: string[];
+  features?: string[];
+  challenges?: string;
+  outcome?: string;
+  liveDemo?: string;
+  sourceCode?: string;
+  image?: string;
+  mobile?: string;
+  cover?: string;
 }
 
 interface ProjectsProps {
-  project: Project
+  project: Project;
 }
 
 const ProjectCard = ({ project }: ProjectsProps) => {
-  const [open, setOpen] = useState(false)
+  const { i18n } = useTranslation();
+  const [open, setOpen] = useState(false);
   const handleOpenModal = () => {
-    setOpen(true)
-  }
+    setOpen(true);
+  };
 
   const handleCloseModal = () => {
-    setOpen(false)
-  }
+    setOpen(false);
+  };
 
   const handleClickIcons = (url: string | undefined) => {
-    window.open(url, '_blank')
-  }
+    window.open(url, "_blank");
+  };
 
   return (
     <>
       <CustomModal
         title={project.title}
         image={project.image}
-        description={project.description}
+        description={
+          i18n.language.startsWith("fr")
+            ? project.descriptionFr
+            : project.descriptionEn
+        }
         open={open}
         handleClose={handleCloseModal}
         tech={project.technologies}
@@ -69,8 +77,8 @@ const ProjectCard = ({ project }: ProjectsProps) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export const Project = () => {
   return (
@@ -84,5 +92,5 @@ export const Project = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
